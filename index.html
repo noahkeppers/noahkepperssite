@@ -1,28 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Noah Keppers</title>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- My Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Icon Font - fontastic.me -->
+  <link href="https://file.myfontastic.com/jQrMLnjNGeqSGcUNDH8C8b/icons.css" rel="stylesheet">
+
+  <!-- Popup Stylesheet -->
+  <link href="css/popup.css" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+</head>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+<body>
+  <div class=row>
+    <div class="col-md-3"></div>
+    <div id="profile" class="col-md-6 text-center">
+      <img src="images/noah_keppers.jpeg" width="200" height="200" alt="Picture of Noah" class="img-circle center-block" />
+      <h1>Noah Keppers</h1>
+      <h4>Computer Science student and aspiring developer.<br>Currently studying at Michigan State University.</h4>
+
+      <div class="social">
+        <a href="http://www.facebook.com/noahkeppers" target="_blank" alt="Facebook profile" class="icon-facebook-square"></a>
+        <a href="http://www.linkedin.com/in/noah-keppers" target="_blank" alt="LinkedIn profile" class="icon-linkedin-square"></a>
+        <a href="https://plus.google.com/102808407633463644962" target="_blank" alt="Google profile" class="icon-google-plus-square"></a>
+        <script type="text/javascript">
+          <!-- 
+          // protected email script by Joe Maller, http://www.joemaller.com
+
+          emailE=('me@' + 'noahkeppers.com')
+          document.write('<a href="mailto:' + emailE + '" target="_blank" alt="Email Address" class="icon-envelope social"></a>')
+
+         //-->
+       </script>
+
+        <noscript>
+          <a href="http://www.google.com/recaptcha/mailhide/d?k=01LJ5Btgbv6gfCqJ7-RbJztA==&c=LZiMj43B4PJrW3ZHBeF_C3lwXsmLREmeZuEi4n83g2s="
+            alt="Email Address" class="icon-envelope social"></a>
+        </noscript>
+      </div>
+
+      <div class="resume">
+        <h4>Resume:</h4>
+        <a href="docs/resume.pdf" target="_blank" alt="Resume PDF">PDF</a>
+        <p> | </p>
+        <a href="docs/resume.docx" target="_blank" alt="Resume DOCX">Word</a>
+      </div>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
