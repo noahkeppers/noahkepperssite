@@ -5,6 +5,8 @@
 .social a {
     font-size: 48px;
     color: black;
+    padding: 10px;
+
  }
 
  .social a:hover {
@@ -23,20 +25,24 @@
 
  /* Hover colors for social media buttons */
 
- .icon-facebook-square:hover {
+ .fa-facebook:hover {
      color: #3b5998;
  }
 
- .icon-linkedin-square:hover {
+ .fa-linkedin:hover {
      color: #0077B5;
  }
 
- .icon-google-plus-square:hover {
+ .fa-google-plus:hover {
      color: #d34836;
  }
 
- .icon-envelope:hover {
+ .fa-envelope:hover {
      color: gray;
+ }
+
+ .fa-ravelry:hover {
+     color: #ac0039;
  }
 
  .resume * {
