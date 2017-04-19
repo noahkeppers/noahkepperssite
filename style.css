@@ -1,0 +1,76 @@
+figcaption {
+    margin-top: 5px;
+    color: #808080;
+}
+
+iframe {
+    border: 0;
+}
+
+.navbar {
+    width: 80%;
+    margin: 10px auto 20px auto;
+    border-radius: 5px;
+}
+
+#home {
+    margin-top: 100px;
+}
+
+#home p, #about p {
+    margin: 0;
+    font-size: 1.25em;
+}
+
+#about div {
+    margin-bottom: 10px;
+}
+
+div.row {
+    margin-bottom: 10px;
+}
+
+.social a {
+    font-size: 5em;
+    color: black;
+    padding: 0 0.1em 0 0.1em;
+}
+
+#contact {
+    margin-bottom: 50px;
+}
+
+/* Cool Social Link Hover */
+ .social a:hover {
+     text-decoration: none;
+     -webkit-transition: color 0.2s linear;
+     -moz-transition: color 0.2s linear;
+     -ms-transition: color 0.2s linear;
+     -o-transition: color 0.2s linear;
+     transition: color 0.2s linear;
+ }
+
+  .social a:focus {
+     text-decoration: none;
+     color: black;
+ }
+
+  .fa-facebook-square:hover,  .fa-facebook-square:focus:hover {
+     color: #3b5998;
+ }
+
+ .fa-linkedin-square:hover, .fa-linkedin-square:focus:hover {
+     color: #0077B5;
+ }
+
+ .fa-google-plus-square:hover, .fa-google-plus-square:focus:hover {
+     color: #d34836;
+ }
+
+ .fa-envelope:hover, .fa-envelope:focus:hover {
+     color: gray;
+ }
+
+ .fa-ravelry:hover, .fa-ravelry:focus:hover {
+     color: #ac0039;
+ }
