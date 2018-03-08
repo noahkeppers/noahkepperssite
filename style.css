@@ -7,6 +7,10 @@ iframe {
     border: 0;
 }
 
+body {
+  margin-bottom: 50px;
+}
+
 .navbar {
     width: 80%;
     margin: 10px auto 20px auto;
@@ -19,6 +23,10 @@ iframe {
   height: 50px; /*same height as header*/
   margin-top: -50px; /*same height as header*/
   visibility: hidden;
+}
+
+div.row {
+    margin-bottom: 10px;
 }
 
 #home {
@@ -34,18 +42,10 @@ iframe {
     margin-bottom: 10px;
 }
 
-div.row {
-    margin-bottom: 10px;
-}
-
 .social a {
     font-size: 5em;
     color: black;
     padding: 0 0.1em 0 0.1em;
-}
-
-#contact {
-    margin-bottom: 50px;
 }
 
 /* Cool Social Link Hover */
@@ -73,6 +73,10 @@ div.row {
 
  .fa-google-plus-square:hover, .fa-google-plus-square:focus:hover {
      color: #d34836;
+ }
+
+ .fa-twitter-square:hover, .fa-twitter-square:focus:hover {
+   color: #00aced;
  }
 
  .fa-envelope:hover, .fa-envelope:focus:hover {
