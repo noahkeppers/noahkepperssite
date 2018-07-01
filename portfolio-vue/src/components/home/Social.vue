@@ -1,13 +1,12 @@
 <template>
-  <div class="main">
-    <img src="../assets/me.jpeg">
-    <h1>Noah Keppers</h1>
+  <div class="social">
+      <p>Social Icons will go here</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Main',
+  name: 'Social'
 }
 </script>
 
