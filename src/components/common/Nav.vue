@@ -16,4 +16,7 @@ export default {
 </script>
 
 <style scoped>
+.nav {
+    text-align: center;
+}
 </style>

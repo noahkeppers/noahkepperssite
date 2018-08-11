@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="home">
     <img src="../../assets/me.jpeg">
     <h1>Noah Keppers</h1>
     <Social />
@@ -23,4 +23,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.home {
+  text-align: center;
+}
 </style>
