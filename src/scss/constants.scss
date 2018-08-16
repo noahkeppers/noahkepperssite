@@ -1,0 +1,9 @@
+$primary: #57886C;
+$secondary: rgb(213, 255, 229);
+
+$theme-colors: (
+    "primary": #57886C
+);
+
+@import "../../node_modules/bootstrap/scss/_functions.scss";
+@import "../../node_modules/bootstrap/scss/_variables.scss";

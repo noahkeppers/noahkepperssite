@@ -43,15 +43,18 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+  @import "scss/constants.scss";
+  @import "../node_modules/bootstrap/scss/bootstrap.scss";
+  @import '../node_modules/bootstrap-vue/dist/bootstrap-vue.css';
+
 a {
-  color: #57886C;
+  color: $primary;
   text-decoration: none;
   transition: 50ms;
 }
 
 a:hover {
-  color: #27583C;
   text-decoration: none;
 }
 

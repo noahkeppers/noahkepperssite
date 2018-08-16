@@ -1,9 +1,9 @@
 <template>
   <div class="social">
-    <a href="https://www.facebook.com/noahkeppers"><FacebookLogo class="icon" id="facebook" /></a>
-    <a href="https://www.linkedin.com/in/noah-keppers/"><LinkedinLogo class="icon" id="linkedin" /></a>
-    <a href="https://twitter.com/NoahKeppers"><TwitterLogo class="icon" id="twitter"/></a>
-    <a href="https://github.com/noahkeppers"><GithubLogo class="icon" id="github" /></a>
+    <a href="https://www.facebook.com/noahkeppers" aria-label="facebook"><FacebookLogo class="icon" id="facebook" /></a>
+    <a href="https://www.linkedin.com/in/noah-keppers/" aria-label="linkedin"><LinkedinLogo class="icon" id="linkedin" /></a>
+    <a href="https://twitter.com/NoahKeppers" aria-label="twitter"><TwitterLogo class="icon" id="twitter"/></a>
+    <a href="https://github.com/noahkeppers" aria-label="github"><GithubLogo class="icon" id="github" /></a>
   </div>
 </template>
 
@@ -24,7 +24,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .icon {
   width: 56px;
   height: 56px;

@@ -1,26 +1,22 @@
 <template>
-    <nav>
-
+    <nav role="navigation">
         <b-navbar toggleable="md" type="light" variant="light">
+            <b-navbar-brand href="#">
+                <img src="../../assets/logo.png" alt="Logo displaying a stylized letter N">
+                Noah Keppers
+            </b-navbar-brand>
 
-  <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+             <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-  <b-navbar-brand href="#">
-      <img class="mr-1" src="../../assets/signature.png">
-    </b-navbar-brand>
-
-  <b-collapse is-nav id="nav_collapse">
-
-    <b-navbar-nav class="ml-auto">
-        <b-nav-item to="/" exact>Home</b-nav-item>
-      <b-nav-item to="/projects">Projects</b-nav-item>
-      <b-nav-item to="/about">About</b-nav-item>
-      <b-nav-item href="/static/resume.pdf">Resume</b-nav-item>
-    </b-navbar-nav>
-
-  </b-collapse>
-</b-navbar>
-
+            <b-collapse is-nav id="nav_collapse">
+                <b-navbar-nav class="ml-auto">
+                    <b-nav-item to="/" exact>Home</b-nav-item>
+                    <b-nav-item to="/work">Work</b-nav-item>
+                    <b-nav-item to="/about">About</b-nav-item>
+                    <b-nav-item href="/static/resume.pdf">Resume</b-nav-item>
+                </b-navbar-nav>
+            </b-collapse>
+        </b-navbar>
     </nav>
 </template>
 
@@ -30,10 +26,12 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import "../../scss/constants.scss";
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
 img {
-    height: 34px;
+    height: 34px !important;
     width: auto;
 }
 
@@ -41,18 +39,23 @@ img {
     background-color: transparent !important;
 }
 
-.active {
-    border-bottom: 2px solid #57886C;
-}
+@include media-breakpoint-up(md) {
+    .nav-link {
+        padding: 0 !important;
+        margin-left: 8px;
+        margin-right: 8px;
+        transition: 50ms;
+        color: #666666 !important;
+    }
 
-.nav-link {
-    padding: 0 !important;
-    margin-left: 8px;
-    margin-right: 8px;
-    transition: 50ms;
-}
+    .nav-link:hover {
+        border-bottom: 2px solid $primary;
+        color: black !important;
+    }
 
-.nav-link:hover {
-    border-bottom: 2px solid #57886C;
+    a.active {
+        border-bottom: 2px solid $primary;
+        color: black !important;
+    }
 }
 </style>
