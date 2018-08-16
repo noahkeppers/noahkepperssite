@@ -9,7 +9,6 @@
         <div class="project"></div>
         <div class="project"></div>
       </div>
-      <Nav />
   </div>
 </template>
 
