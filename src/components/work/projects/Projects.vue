@@ -1,7 +1,9 @@
 <template>
   <div class="projects">
-    <div class="d-flex flex-wrap" v-for="project in projects" :key="project.id">
-        <ProjectCard :project="project" />
+    <div class="row">
+      <div class="col-md-6" v-for="(col, index) in cols" :key="`${index}`">
+        <ProjectCard v-for="project in col" :key="project.id" :project="project" />
+      </div>
     </div>
   </div>
 </template>
@@ -16,14 +18,18 @@ export default {
     ProjectCard
   },
   data: function () {
-    return { projects: ProjectCards }
+    let cols = []
+    const numPerCol = Math.ceil((ProjectCards.length / 2))
+
+    let start = 0
+    while (start < ProjectCards.length) {
+      cols.push(ProjectCards.slice(start, start + numPerCol))
+      start = start + numPerCol
+    }
+    return { cols: cols }
   }
 }
 </script>
 
 <style lang="scss" scoped>
-.card {
-  margin: 8px;
-  flex-grow: 1;
-}
 </style>

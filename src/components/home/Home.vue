@@ -3,36 +3,27 @@
     <h1 class="sr-only">Home</h1>
     <div class="row align-items-center my-2 pb-4">
       <div class="col">
-        <div class="display-4">
-          <p>Technologist. Developer. <a href="https://www.ted.com/talks/brene_brown_on_vulnerability">Hacker-storyteller.</a></p>
+        <div class="display-4 mb-2">
+          Technologist. Developer. <a href="https://youtu.be/iCvmsMzlF7o?t=1m10s">Hacker-storyteller.</a>
         </div>
         <div class="h2">
-          I'm passionate about pushing the boundaries of tech to create connections and embrace our shared humanity.
+          I'm passionate about using tech to inspire human connection.
         </div>
       </div>
     </div>
-    <b-card-group deck>
-      <b-card overlay
-          bg-variant="primary-bg-gradient"
-          img-src="https://picsum.photos/388/198/?image=36"
-          img-alt="Card Image"
-          text-variant="white"
-          title="Image Overlay"
-          sub-title="Subtitle">
-        <p class="card-text">
-            Some quick example text to build on the card and make
-            up the bulk of the card's content.
-        </p>
-      </b-card>
+    <b-card-group deck class="flex-nowrap">
+      <div v-for="project in projects.slice(0, 2)" :key="project.id">
+        <ProjectCard :project="project" />
+      </div>
       <router-link to="/work">
         <b-card bg-variant="primary"
                 text-variant="white"
-                class="border-0"
+                class="border-0 h-100"
                 role="button"
                 no-body>
           <b-card-body class="d-flex flex-column rounded" id="more-projects">
             <p class="card-text h1">More projects</p>
-            <ArrowIcon class="icon mt-auto align-self-end" />
+            <ArrowIcon class="mt-auto align-self-end h-lg-50" />
           </b-card-body>
         </b-card>
       </router-link>
@@ -41,36 +32,36 @@
 </template>
 
 <script>
-import Nav from '../common/Nav.vue'
 import ArrowIcon from '../../icons/arrow-right.svg'
+import ProjectCard from '../work/projects/ProjectCard'
+import ProjectCards from '../work/projects/project-cards.json'
 
 export default {
   name: 'Home',
   components: {
-    Nav,
-    ArrowIcon
+    ArrowIcon,
+    ProjectCard
+  },
+  data: function () {
+    return { projects: ProjectCards }
   }
 }
 </script>
 
 <style lang="scss" scoped>
 @import "../../scss/constants.scss";
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
 .home {
   min-height: 90vh;
 }
 
-.icon {
-  width: 100px;
-  height: auto;
+a:hover {
+  text-decoration: none;
 }
 
 .h2 {
   font-weight: 300;
-}
-
-.card {
-  height: 300px;
 }
 
 #more-projects {
@@ -79,5 +70,42 @@ export default {
 
 #more-projects:hover {
   background-color: $link-hover-color;
+}
+
+@include media-breakpoint-down(sm) {
+  .card-deck {
+    flex-direction: column;
+  }
+
+  #more-projects > .card-text {
+    font-size: 2.5rem;
+  }
+
+  #more-projects > svg {
+    width: 25%;
+    height: auto;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  #more-projects > .card-text {
+    font-size: 1.5rem;
+  }
+
+  #more-projects > svg {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  #more-projects > .card-text {
+    font-size: 2rem;
+  }
+
+  #more-projects > svg {
+    width: 50%;
+    height: auto;
+  }
 }
 </style>

@@ -1,16 +1,16 @@
 [
     {
-        "id": "testproject",
-        "title": "A Test Project",
-        "desc": "This is a test project.",
-        "imgSrc": "me.jpeg",
-        "imgAlt": "Test Alt"
+        "id": "theatreengine",
+        "title": "Theatre Engine",
+        "desc": "Live dance, electronic music, mobile phones and YOU.",
+        "imgSrc": "te/splash.jpeg",
+        "imgAlt": "Dancers in colored t-shirts and black pants moving underneath bright spotlights"
     },
     {
-        "id": "test-project2",
-        "title": "A Test Project",
-        "desc": "This is a test project.",
-        "imgSrc": "me.jpeg",
-        "imgAlt": "Test Alt"
+        "id": "w4st",
+        "title": "West 4th Street",
+        "desc": "Storytelling meets identity.",
+        "imgSrc": "w4st/splash.jpeg",
+        "imgAlt": "The words 'West 4th Street' set on a chain-link background"
     }
 ]

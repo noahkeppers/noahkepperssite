@@ -1,10 +1,12 @@
 <template>
     <router-link :to="`/work/${project.id}`">
-        <b-card overlay
+        <b-card
+            overlay
             :img-src="require(`../../../assets/${project.imgSrc}`)"
             :img-alt="project.imgAlt"
-            text-variant="black"
-            :title="project.title">
+            text-variant="white"
+            :title="project.title"
+            class="mb-sm-4 mb-md-0">
           <p class="card-text">
               {{ project.desc }}
           </p>
@@ -21,7 +23,6 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-  margin: 8px;
   flex-grow: 1;
 }
 </style>
