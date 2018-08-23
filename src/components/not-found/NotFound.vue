@@ -1,11 +1,23 @@
 <template>
-  <div class="not-found" role="main">
+  <div
+    class="not-found"
+    role="main">
     <div class="row">
       <div class="col">
-        <p class="display-1 font-weight-bold mb-0 mt-4" id="text-404">404 Not Found</p>
+        <p
+          id="text-404"
+          class="display-1 font-weight-bold mb-0 mt-4">404 Not Found</p>
         <p class="display-4 mb-4">Whoops! There isn't a page at that URL.</p>
-        <b-btn variant="primary" size="lg" class="mr-2" to="/" id="home">Home</b-btn>
-        <b-btn variant="primary" size="lg" @click="back">Go Back</b-btn>
+        <b-btn
+          id="home"
+          variant="primary"
+          size="lg"
+          class="mr-2"
+          to="/">Home</b-btn>
+        <b-btn
+          variant="primary"
+          size="lg"
+          @click="back">Go Back</b-btn>
       </div>
     </div>
   </div>

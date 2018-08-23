@@ -1,8 +1,14 @@
 <template>
   <div class="projects">
     <div class="row">
-      <div class="col-md-6" v-for="(col, index) in cols" :key="`${index}`">
-        <ProjectCard v-for="project in col" :key="project.id" :project="project" />
+      <div
+        v-for="(col, index) in cols"
+        :key="`${index}`"
+        class="col-md-6">
+        <ProjectCard
+          v-for="project in col"
+          :key="project.id"
+          :project="project" />
       </div>
     </div>
   </div>

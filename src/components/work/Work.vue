@@ -1,7 +1,9 @@
 <template>
-  <div class="work" role="main">
-      <h1 class="display-2">Work</h1>
-      <router-view/>
+  <div
+    class="work"
+    role="main">
+    <h1 class="display-2">Work</h1>
+    <router-view/>
   </div>
 </template>
 

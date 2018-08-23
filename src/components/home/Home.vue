@@ -1,5 +1,7 @@
 <template>
-  <div class="home d-flex flex-column justify-content-center" role="main">
+  <div
+    class="home d-flex flex-column justify-content-center"
+    role="main">
     <h1 class="sr-only">Home</h1>
     <div class="row align-items-center my-2 pb-4">
       <div class="col">
@@ -11,17 +13,24 @@
         </div>
       </div>
     </div>
-    <b-card-group deck class="flex-nowrap">
-      <div v-for="project in projects.slice(0, 2)" :key="project.id">
+    <b-card-group
+      deck
+      class="flex-nowrap">
+      <div
+        v-for="project in projects.slice(0, 2)"
+        :key="project.id">
         <ProjectCard :project="project" />
       </div>
       <router-link to="/work">
-        <b-card bg-variant="primary"
-                text-variant="white"
-                class="border-0 h-100"
-                role="button"
-                no-body>
-          <b-card-body class="d-flex flex-column rounded" id="more-projects">
+        <b-card
+          bg-variant="primary"
+          text-variant="white"
+          class="border-0 h-100"
+          role="button"
+          no-body>
+          <b-card-body
+            id="more-projects"
+            class="d-flex flex-column rounded">
             <p class="card-text h1">More projects</p>
             <ArrowIcon class="mt-auto align-self-end h-lg-50" />
           </b-card-body>
