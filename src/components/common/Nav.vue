@@ -4,7 +4,7 @@
       toggleable="md"
       type="light"
       variant="light">
-      <b-navbar-brand href="#">
+      <b-navbar-brand to="/">
         <img
           src="../../assets/logo.png"
           alt="Logo displaying a stylized letter N">
@@ -48,6 +48,10 @@ img {
 
 .navbar {
     background-color: transparent !important;
+}
+
+.navbar-brand {
+  border-bottom: none !important;
 }
 
 @include media-breakpoint-up(md) {
