@@ -14,8 +14,12 @@
         id="bio"
         class="col-lg">
         <div>
-          <p>This is where a bio will go.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mauris mauris, consequat at fringilla a, mollis ut orci. Suspendisse quis tortor nisl. Morbi eu velit ipsum. Cras blandit ac felis id commodo. Maecenas molestie dictum eleifend. Curabitur non ante non risus feugiat efficitur ut eu est. Vestibulum viverra nisl vel nibh ultricies hendrerit. Quisque in vestibulum lorem, quis consectetur neque. Nam tincidunt ex nec vulputate posuere. Fusce fermentum nisl eget lacus aliquet ultrices. Etiam nec justo eu sapien vehicula rhoncus.</p>
+          <p>Hi, I’m Noah Keppers! I’m a creative technologist and developer interested in the intersection between storytelling, technology, and art.</p>
+
+          <p>I’m currently pursuing a Bachelors of Science in Computer Science at <a href="https://msu.edu">Michigan State University</a> with a planned graduation date of December 2018.</p>
+
+          <p>While in school, I’ve worked with the <a href="https://msu.edu/~dobbinsa/">Theatre Engine</a> and <a href="https://www.cse.msu.edu/dance/index.html">Dancing Computer</a> teams on interdisciplinary research combining Computer Science and Theatre. 
+             I’ve also worked as an intern at <a href="https://www.google.com/">Google</a> and <a href="https://www.twobulls.com/">Two Bulls</a> and participated in the <a href="http://hackny.org/fellows/">hackNY Fellows Program.</a></p>
         </div>
         <hr>
         <Social />
