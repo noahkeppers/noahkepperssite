@@ -34,5 +34,12 @@
         "subtitle": "Michigan State University",
         "desc": "BE the computer - programming literacy through music and dance.",
         "imgAlt": "Children stand on a colored foam floor facing different directions, each holding an Android tablet"
+    },
+    {
+        "id": "bg",
+        "title": "Blue & Gold",
+        "subtitle": "Findlay High School's Award Winning Student Newspaper",
+        "desc": "Where it all started.",
+        "imgAlt": "The Blue & Gold logo"
     }
 ]
