@@ -1,0 +1,38 @@
+[
+    {
+        "id": "te",
+        "title": "Theatre Engine",
+        "subtitle": "Michigan State University",
+        "desc": "An ambitious mashup of technology, dance, and improv.",
+        "imgAlt": "Dancers in colored t-shirts and black pants moving underneath bright spotlights"
+    },
+    {
+        "id": "w4st",
+        "title": "West 4th Street",
+        "subtitle": "hackNY Social Good",
+        "desc": "Storytelling meets identity.",
+        "imgAlt": "The words 'West 4th Street' set on a chain-link background"
+    },
+    {
+        "id": "allo",
+        "title": "Mentions",
+        "subtitle": "Allo for Android",
+        "desc": "@you, @me, @all of the people.",
+        "imgAlt": "The Google Allo logo"
+    },
+    {
+        "id": "alliance",
+        "title": "Conference Coordinator",
+        "subtitle": "Alliance of Queer & Ally Students",
+        "desc": "Queering up MSU, one delegation at a time.",
+        "imgAlt": "The Alliance of Queer and Ally Students logo"
+
+    },
+    {
+        "id": "dc",
+        "title": "Dancing Computer",
+        "subtitle": "Michigan State University",
+        "desc": "BE the computer - programming literacy through music and dance.",
+        "imgAlt": "Children stand on a colored foam floor facing different directions, each holding an Android tablet"
+    }
+]

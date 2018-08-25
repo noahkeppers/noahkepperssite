@@ -1,41 +1,78 @@
 <template>
   <div class="projects">
-    <div class="row">
-      <div
-        v-for="(col, index) in cols"
-        :key="`${index}`"
-        class="col-md-6">
-        <ProjectCard
-          v-for="project in col"
-          :key="project.id"
-          :project="project" />
+    <router-link
+      v-for="project in projects"
+      :key="project.id"
+      :to="`/work/${project.id}`">
+      <div class="row border-bottom pt-4">
+        <div class="col-lg-3">
+          <div class="backdrop rounded mb-4">
+            <img
+              :src="require(`../../../assets/${project.id}/splash.jpeg`)"
+              :alt="project.imgAlt"
+              class="img-fluid rounded">
+          </div>
+        </div>
+        <div class="col-lg-6 ml-lg-4">
+          <h2 class="h1 m-0">{{ project.title }}</h2>
+          <p class="h2 subtitle">{{ project.subtitle }}</p>
+          <p>{{ project.desc }}</p>
+        </div>
+        <div class="col-lg mb-4 text-right align-self-center">
+          <ArrowIcon />
+        </div>
       </div>
-    </div>
+    </router-link>
   </div>
 </template>
 
 <script>
-import ProjectCard from './ProjectCard'
-import ProjectCards from './project-cards.json'
+import ArrowIcon from '../../../icons/arrow-right.svg'
+import ProjectCards from './projects.json'
 
 export default {
   name: 'Projects',
   components: {
-    ProjectCard
+    ArrowIcon
   },
   data: function () {
-    let cols = []
-    const numPerCol = Math.ceil((ProjectCards.length / 2))
-
-    let start = 0
-    while (start < ProjectCards.length) {
-      cols.push(ProjectCards.slice(start, start + numPerCol))
-      start = start + numPerCol
-    }
-    return { cols: cols }
+    return { projects: ProjectCards }
   }
 }
 </script>
 
 <style lang="scss" scoped>
+@import "../../../scss/constants.scss";
+
+.backdrop {
+  background-color: black;
+}
+
+.subtitle {
+  color: $primary;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease;
+}
+.row {
+  color: black;
+
+  svg {
+    width: 75px;
+    height: auto;
+  }
+}
+
+.row:hover {
+  background-color: #EEE;
+  color: #444;
+  transition: background-color 0.5s ease;
+
+  img {
+    opacity: 0.8;
+  }
+}
 </style>

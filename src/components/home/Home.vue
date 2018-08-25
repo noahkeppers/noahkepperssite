@@ -43,7 +43,7 @@
 <script>
 import ArrowIcon from '../../icons/arrow-right.svg'
 import ProjectCard from '../work/projects/ProjectCard'
-import ProjectCards from '../work/projects/project-cards.json'
+import ProjectCards from '../work/projects/projects.json'
 
 export default {
   name: 'Home',
@@ -58,8 +58,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../scss/constants.scss";
-@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../scss/card-responsive-text.scss";
 
 .home {
   min-height: 90vh;
@@ -84,37 +83,6 @@ a:hover {
 @include media-breakpoint-down(sm) {
   .card-deck {
     flex-direction: column;
-  }
-
-  #more-projects > .card-text {
-    font-size: 2.5rem;
-  }
-
-  #more-projects > svg {
-    width: 25%;
-    height: auto;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  #more-projects > .card-text {
-    font-size: 1.5rem;
-  }
-
-  #more-projects > svg {
-    width: 50%;
-    height: auto;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  #more-projects > .card-text {
-    font-size: 2rem;
-  }
-
-  #more-projects > svg {
-    width: 50%;
-    height: auto;
   }
 }
 </style>

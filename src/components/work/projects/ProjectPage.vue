@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ProjectPages from './project-pages.json'
+import ProjectPages from './projects.json'
 
 export default {
   name: 'ProjectPage',
