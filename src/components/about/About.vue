@@ -18,8 +18,8 @@
 
           <p>I’m currently pursuing a Bachelors of Science in Computer Science at <a href="https://msu.edu">Michigan State University</a> with a planned graduation date of December 2018.</p>
 
-          <p>While in school, I’ve worked with the <a href="https://msu.edu/~dobbinsa/">Theatre Engine</a> and <a href="https://www.cse.msu.edu/dance/index.html">Dancing Computer</a> teams on interdisciplinary research combining Computer Science and Theatre. 
-             I’ve also worked as an intern at <a href="https://www.google.com/">Google</a> and <a href="https://www.twobulls.com/">Two Bulls</a> and participated in the <a href="http://hackny.org/fellows/">hackNY Fellows Program.</a></p>
+          <p>While in school, I’ve worked with the <a href="https://msu.edu/~dobbinsa/">Theatre Engine</a> and <a href="https://www.cse.msu.edu/dance/index.html">Dancing Computer</a> teams on interdisciplinary research combining Computer Science and Theatre.
+          I’ve also worked as an intern at <a href="https://www.google.com/">Google</a> and <a href="https://www.twobulls.com/">Two Bulls</a> and participated in the <a href="http://hackny.org/fellows/">hackNY Fellows Program.</a></p>
         </div>
         <hr>
         <Social />
