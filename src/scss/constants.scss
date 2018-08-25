@@ -1,8 +1,9 @@
 $primary: #57886C;
-$secondary: rgb(213, 255, 229);
+$secondary: #444;
 
 $theme-colors: (
-    "primary": #57886C
+    "primary": #57886C,
+    "secondary": #444
 );
 
 @import "../../node_modules/bootstrap/scss/_functions.scss";

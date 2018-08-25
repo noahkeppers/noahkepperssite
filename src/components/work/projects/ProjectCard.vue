@@ -38,7 +38,6 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../../scss/card-responsive-text.scss";
-
 .card {
   flex-grow: 1;
   background-color: black;
@@ -63,13 +62,5 @@ export default {
   img {
     opacity: 0.8;
   }
-}
-
-img {
-  background:
-      linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    );
 }
 </style>

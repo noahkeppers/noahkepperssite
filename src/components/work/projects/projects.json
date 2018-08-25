@@ -21,14 +21,6 @@
         "imgAlt": "The Google Allo logo"
     },
     {
-        "id": "alliance",
-        "title": "Conference Coordinator",
-        "subtitle": "Alliance of Queer & Ally Students",
-        "desc": "Queering up MSU, one delegation at a time.",
-        "imgAlt": "The Alliance of Queer and Ally Students logo"
-
-    },
-    {
         "id": "dc",
         "title": "Dancing Computer",
         "subtitle": "Michigan State University",
@@ -36,10 +28,11 @@
         "imgAlt": "Children stand on a colored foam floor facing different directions, each holding an Android tablet"
     },
     {
-        "id": "bg",
-        "title": "Blue & Gold",
-        "subtitle": "Findlay High School's Award Winning Student Newspaper",
-        "desc": "Where it all started.",
-        "imgAlt": "The Blue & Gold logo"
+        "id": "alliance",
+        "title": "Conference Coordinator",
+        "subtitle": "Alliance of Queer & Ally Students",
+        "desc": "Queering up MSU, one delegation at a time.",
+        "imgAlt": "The Alliance of Queer and Ally Students logo"
+
     }
 ]

@@ -1,5 +1,6 @@
 <template>
   <div class="projects">
+    <h1 class="display-2">Work</h1>
     <router-link
       v-for="project in projects"
       :key="project.id"
@@ -68,7 +69,7 @@ img {
 
 .row:hover {
   background-color: #EEE;
-  color: #444;
+  color: $secondary;
   transition: background-color 0.5s ease;
 
   img {

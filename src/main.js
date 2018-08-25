@@ -5,10 +5,6 @@ import BootstrapVue from 'bootstrap-vue'
 import App from './App'
 import router from './router'
 
-// import './scss/constants.scss'
-// import '../node_modules/bootstrap/scss/bootstrap.scss'
-// import 'bootstrap-vue/dist/bootstrap-vue.css'
-
 Vue.config.productionTip = false
 
 Vue.use(BootstrapVue)
