@@ -38,7 +38,7 @@ a {
   transition: 50ms;
 }
 
-a:hover {
+a:hover, a:focus {
   text-decoration: none;
 }
 

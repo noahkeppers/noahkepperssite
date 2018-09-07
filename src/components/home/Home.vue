@@ -76,7 +76,7 @@ a:hover {
   transition: background-color 0.5s ease;
 }
 
-#more-projects:hover {
+#more-projects:hover, a:focus #more-projects {
   background-color: $link-hover-color;
 }
 

@@ -1,34 +1,34 @@
 <template>
-  <nav role="navigation">
-    <b-navbar
-      toggleable="md"
-      type="light"
-      variant="light">
-      <b-navbar-brand to="/">
-        <img
-          src="../../assets/logo.png"
-          alt="Logo displaying a stylized letter N">
-        Noah Keppers
-      </b-navbar-brand>
+  <b-navbar
+    toggleable="md"
+    type="light"
+    variant="light">
+    <b-navbar-brand
+      to="/"
+      aria-labelledby="brand-text">
+      <img
+        src="../../assets/logo.png"
+        alt="Logo">
+      <span id="brand-text">Noah Keppers</span>
+    </b-navbar-brand>
 
-      <b-navbar-toggle target="nav_collapse" />
+    <b-navbar-toggle target="nav_collapse" />
 
-      <b-collapse
-        id="nav_collapse"
-        is-nav>
-        <b-navbar-nav class="ml-auto">
-          <b-nav-item
-            to="/"
-            exact>
-            Home
-          </b-nav-item>
-          <b-nav-item to="/work">Work</b-nav-item>
-          <b-nav-item to="/about">About</b-nav-item>
-          <b-nav-item href="/static/resume.pdf">Resume</b-nav-item>
-        </b-navbar-nav>
-      </b-collapse>
-    </b-navbar>
-  </nav>
+    <b-collapse
+      id="nav_collapse"
+      is-nav>
+      <b-navbar-nav class="ml-auto">
+        <b-nav-item
+          to="/"
+          exact>
+          Home
+        </b-nav-item>
+        <b-nav-item to="/projects">Projects</b-nav-item>
+        <b-nav-item to="/about">About</b-nav-item>
+        <b-nav-item href="/static/resume.pdf">Resume</b-nav-item>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
 </template>
 
 <script>
@@ -63,7 +63,7 @@ img {
         color: #666666 !important;
     }
 
-    .nav-link:hover {
+    .nav-link:hover, .nav-link:focus {
         border-bottom: 2px solid $primary;
         color: black !important;
     }

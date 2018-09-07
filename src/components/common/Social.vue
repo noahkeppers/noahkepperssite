@@ -55,19 +55,19 @@ export default {
   transition: fill 0.5s ease;
 }
 
-#facebook:hover {
+#facebook:hover, a:focus #facebook {
   fill: #3B5998;
 }
 
-#github:hover {
+#github:hover, a:focus #github {
   fill: #6e5494;
 }
 
-#linkedin:hover {
+#linkedin:hover, a:focus #linkedin {
   fill: #0077B5;
 }
 
-#twitter:hover {
+#twitter:hover, a:focus #twitter {
   fill: #55acee;
 }
 </style>

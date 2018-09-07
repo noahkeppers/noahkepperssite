@@ -50,7 +50,7 @@ export default {
   border-color: $primary;
 }
 
-#home:hover {
+#home:hover, #home:focus {
   background-color: $link-hover-color;
   border-color: $link-hover-color;
 }
