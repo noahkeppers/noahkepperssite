@@ -37,10 +37,6 @@ export default {
 <style lang="scss" scoped>
 @import "../../scss/constants.scss";
 
-.not-found {
-  height: inherit;
-}
-
 #text-404 {
   color: $primary !important;
 }

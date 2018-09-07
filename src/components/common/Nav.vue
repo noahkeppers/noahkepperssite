@@ -57,6 +57,7 @@ img {
 @include media-breakpoint-up(md) {
     .nav-link {
         padding: 0 !important;
+        padding-bottom: 2px !important;
         margin-left: 8px;
         margin-right: 8px;
         transition: 50ms;
@@ -64,6 +65,7 @@ img {
     }
 
     .nav-link:hover, .nav-link:focus {
+        padding-bottom: 0px !important;
         border-bottom: 2px solid $primary;
         color: black !important;
     }
