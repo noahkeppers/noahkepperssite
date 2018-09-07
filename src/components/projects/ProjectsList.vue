@@ -4,7 +4,7 @@
     <router-link
       v-for="project in projects"
       :key="project.id"
-      :to="`/projects/${project.id}`" 
+      :to="`/projects/${project.id}`"
       :aria-labelledby="`project-title-${project.id}`">
       <div class="row border-bottom pt-4">
         <div class="col-lg-3">
