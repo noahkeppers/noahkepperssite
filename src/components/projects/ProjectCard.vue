@@ -1,7 +1,9 @@
 <template>
-  <router-link :to="`/work/${project.id}`">
+  <router-link
+    :to="`/projects/${project.id}`"
+    :aria-labelledby="`project-title-${project.id}`">
     <b-card
-      :img-src="require(`../../../assets/${project.id}/splash.jpeg`)"
+      :img-src="require(`../../assets/${project.id}/splash.jpeg`)"
       :img-alt="project.imgAlt"
       text-variant="white"
       class="border-0 h-100 mb-2"
@@ -9,7 +11,9 @@
       <b-card-body
         overlay
         class="d-flex flex-column rounded">
-        <p class="card-text h1">{{ project.title }}</p>
+        <p
+          :id="`project-title-${project.id}`"
+          class="card-text h1">{{ project.title }}</p>
         <ArrowIcon class="mt-auto align-self-end h-lg-50" />
       </b-card-body>
     </b-card>
@@ -18,7 +22,7 @@
 </template>
 
 <script>
-import ArrowIcon from '../../../icons/arrow-right.svg'
+import ArrowIcon from '../../icons/arrow-right.svg'
 
 export default {
   name: 'ProjectCard',
@@ -37,7 +41,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../../scss/card-responsive-text.scss";
+@import "../../scss/card-responsive-text.scss";
 .card {
   flex-grow: 1;
   background-color: black;
@@ -53,7 +57,7 @@ export default {
   }
 }
 
-.card:hover {
+.card:hover, a:focus .card {
   .card-body {
     visibility: visible;
     opacity: 1;

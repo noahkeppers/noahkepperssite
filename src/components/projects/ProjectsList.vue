@@ -1,21 +1,24 @@
 <template>
-  <div class="projects">
-    <h1 class="display-2">Work</h1>
+  <div class="projects-list">
+    <h1 class="display-2">Projects</h1>
     <router-link
       v-for="project in projects"
       :key="project.id"
-      :to="`/work/${project.id}`">
+      :to="`/projects/${project.id}`" 
+      :aria-labelledby="`project-title-${project.id}`">
       <div class="row border-bottom pt-4">
         <div class="col-lg-3">
           <div class="backdrop rounded mb-4">
             <img
-              :src="require(`../../../assets/${project.id}/splash.jpeg`)"
+              :src="require(`../../assets/${project.id}/splash.jpeg`)"
               :alt="project.imgAlt"
               class="img-fluid rounded">
           </div>
         </div>
         <div class="col-lg-6 ml-lg-4">
-          <h2 class="h1 m-0">{{ project.title }}</h2>
+          <h2
+            :id="`project-title-${project.id}`"
+            class="h1 m-0">{{ project.title }}</h2>
           <p class="h2 subtitle">{{ project.subtitle }}</p>
           <p>{{ project.desc }}</p>
         </div>
@@ -28,11 +31,11 @@
 </template>
 
 <script>
-import ArrowIcon from '../../../icons/arrow-right.svg'
+import ArrowIcon from '../../icons/arrow-right.svg'
 import ProjectCards from './projects.json'
 
 export default {
-  name: 'Projects',
+  name: 'ProjectsList',
   components: {
     ArrowIcon
   },
@@ -43,7 +46,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../../scss/constants.scss";
+@import "../../scss/constants.scss";
 
 .backdrop {
   background-color: black;
@@ -67,7 +70,7 @@ img {
   }
 }
 
-.row:hover {
+.row:hover, a:focus .row {
   background-color: #EEE;
   color: $secondary;
   transition: background-color 0.5s ease;

@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/home/Home'
-import Work from '@/components/work/Work'
-import Projects from '@/components/work/projects/Projects'
-import ProjectPage from '@/components/work/projects/ProjectPage'
+import ProjectsMain from '@/components/projects/ProjectsMain'
+import ProjectsList from '@/components/projects/ProjectsList'
+import ProjectPage from '@/components/projects/ProjectPage'
 import About from '@/components/about/About'
 import NotFound from '@/components/not-found/NotFound'
 
@@ -17,12 +17,12 @@ export default new Router({
       component: Home
     },
     {
-      path: '/work',
-      component: Work,
+      path: '/projects',
+      component: ProjectsMain,
       children: [
         {
           path: '',
-          component: Projects
+          component: ProjectsList
         },
         {
           path: ':id',

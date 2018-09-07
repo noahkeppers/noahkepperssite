@@ -1,6 +1,6 @@
 <template>
   <div
-    class="work"
+    class="projects"
     role="main">
     <transition
       name="fade"
@@ -18,7 +18,7 @@ import Nav from '../common/Nav'
 import transitionsMixin from '../../mixins/transitions'
 
 export default {
-  name: 'Work',
+  name: 'ProjectsMain',
   components: {
     Nav
   },

@@ -21,7 +21,7 @@
         :key="project.id">
         <ProjectCard :project="project" />
       </div>
-      <router-link to="/work">
+      <router-link to="/projects">
         <b-card
           bg-variant="primary"
           text-variant="white"
@@ -42,8 +42,8 @@
 
 <script>
 import ArrowIcon from '../../icons/arrow-right.svg'
-import ProjectCard from '../work/projects/ProjectCard'
-import ProjectCards from '../work/projects/projects.json'
+import ProjectCard from '../projects/ProjectCard'
+import ProjectCards from '../projects/projects.json'
 
 export default {
   name: 'Home',
