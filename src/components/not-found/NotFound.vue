@@ -6,6 +6,7 @@
       <div class="col">
         <p
           id="text-404"
+          ref="srFocus"
           class="display-1 font-weight-bold mb-0 mt-4">404 Not Found</p>
         <p class="display-4 mb-4">Whoops! There isn't a page at that URL.</p>
         <b-btn
@@ -24,8 +25,10 @@
 </template>
 
 <script>
+import focusMixin from '../../mixins/focus'
 export default {
   name: 'NotFound',
+  mixins: [focusMixin],
   methods: {
     back: function (event) {
       this.$router.go(-1)

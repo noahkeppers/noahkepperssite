@@ -2,7 +2,9 @@
   <div
     class="about"
     role="main">
-    <h1 class="display-2 mb-3">About</h1>
+    <h1
+      ref="srFocus"
+      class="display-2 mb-3">About</h1>
     <div class="row">
       <div class="col-lg mb-4">
         <img
@@ -31,13 +33,15 @@
 <script>
 import Nav from '../common/Nav'
 import Social from '../common/Social'
+import focusMixin from '../../mixins/focus'
 
 export default {
   name: 'About',
   components: {
     Nav,
     Social
-  }
+  },
+  mixins: [focusMixin]
 }
 </script>
 

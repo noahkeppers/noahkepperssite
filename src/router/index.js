@@ -13,6 +13,7 @@ export default new Router({
   mode: 'history',
   routes: [
     {
+      name: 'Home',
       path: '/',
       component: Home
     },
@@ -21,20 +22,24 @@ export default new Router({
       component: ProjectsMain,
       children: [
         {
+          name: 'Projects List',
           path: '',
           component: ProjectsList
         },
         {
+          name: 'Project Page',
           path: ':id',
           component: ProjectPage
         }
       ]
     },
     {
+      name: 'About',
       path: '/about',
       component: About
     },
     {
+      name: 'Not Found',
       path: '*',
       component: NotFound
     }

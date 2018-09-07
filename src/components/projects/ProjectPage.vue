@@ -20,7 +20,9 @@
         <ArrowRightIcon />
       </router-link>
     </nav>
-    <h1 class="display-3">{{ project.title }}</h1>
+    <h1
+      ref="srFocus"
+      class="display-3">{{ project.title }}</h1>
     <img
       :src="require(`../../assets/${project.id}/splash.jpeg`)"
       :alt="project.imgAlt"
@@ -63,6 +65,7 @@ import ArrowLeftIcon from '../../icons/arrow-left.svg'
 import ArrowRightIcon from '../../icons/arrow-right.svg'
 import ListIcon from '../../icons/list.svg'
 import ProjectPages from './projects.json'
+import focusMixin from '../../mixins/focus'
 
 export default {
   name: 'ProjectPage',
@@ -71,6 +74,7 @@ export default {
     ArrowRightIcon,
     ListIcon
   },
+  mixins: [focusMixin],
   data: function () {
     const index = ProjectPages.findIndex((element) => {
       return element.id === this.$route.params.id

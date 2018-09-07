@@ -2,7 +2,9 @@
   <div
     class="home d-flex flex-column justify-content-center"
     role="main">
-    <h1 class="sr-only">Home</h1>
+    <h1
+      ref="srFocus"
+      class="sr-only">Home</h1>
     <div class="row align-items-center my-2 pb-4">
       <div class="col">
         <div class="display-4 mb-2">
@@ -44,6 +46,7 @@
 import ArrowIcon from '../../icons/arrow-right.svg'
 import ProjectCard from '../projects/ProjectCard'
 import ProjectCards from '../projects/projects.json'
+import focusMixin from '../../mixins/focus'
 
 export default {
   name: 'Home',
@@ -51,6 +54,7 @@ export default {
     ArrowIcon,
     ProjectCard
   },
+  mixins: [focusMixin],
   data: function () {
     return { projects: ProjectCards }
   }

@@ -1,6 +1,8 @@
 <template>
   <div class="projects-list">
-    <h1 class="display-2">Projects</h1>
+    <h1
+      ref="srFocus"
+      class="display-2">Projects</h1>
     <router-link
       v-for="project in projects"
       :key="project.id"
@@ -33,12 +35,14 @@
 <script>
 import ArrowIcon from '../../icons/arrow-right.svg'
 import ProjectCards from './projects.json'
+import focusMixin from '../../mixins/focus'
 
 export default {
   name: 'ProjectsList',
   components: {
     ArrowIcon
   },
+  mixins: [focusMixin],
   data: function () {
     return { projects: ProjectCards }
   }
