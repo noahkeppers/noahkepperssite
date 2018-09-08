@@ -4,35 +4,58 @@
         "title": "Theatre Engine",
         "subtitle": "Michigan State University",
         "desc": "An ambitious mashup of technology, dance, and improv.",
-        "imgAlt": "Dancers in colored t-shirts and black pants moving underneath bright spotlights"
+        "splashAlt": "Dancers in colored t-shirts and black pants moving underneath bright spotlights",
+        "buttons": [
+            {
+                "text": "Project Home",
+                "link": "https://www.msu.edu/~dobbinsa"
+            },
+            {
+                "text": "Test Button",
+                "link": ""
+            }
+        ],
+        "body": "Test Body Text",
+        "images": [
+            {
+                "name": "splash.jpeg",
+                "alt": "Test Alt",
+                "caption": "Test Caption"
+            },
+            {
+                "name": "splash.jpeg",
+                "alt": "Test Alt",
+                "caption": "Test Caption"
+            }
+        ]
     },
     {
         "id": "w4st",
         "title": "West 4th Street",
         "subtitle": "hackNY Social Good",
         "desc": "Storytelling meets identity.",
-        "imgAlt": "The words 'West 4th Street' set on a chain-link background"
+        "splashAlt": "The words 'West 4th Street' set on a chain-link background"
     },
     {
         "id": "allo",
         "title": "Mentions",
         "subtitle": "Allo for Android",
         "desc": "@you, @me, @all of the people.",
-        "imgAlt": "The Google Allo logo"
+        "splashAlt": "The Google Allo logo"
     },
     {
         "id": "dc",
         "title": "Dancing Computer",
         "subtitle": "Michigan State University",
         "desc": "BE the computer - programming literacy through music and dance.",
-        "imgAlt": "Children stand on a colored foam floor facing different directions, each holding an Android tablet"
+        "splashAlt": "Children stand on a colored foam floor facing different directions, each holding an Android tablet"
     },
     {
         "id": "alliance",
         "title": "Conference Coordinator",
         "subtitle": "Alliance of Queer & Ally Students",
         "desc": "Queering up MSU, one delegation at a time.",
-        "imgAlt": "The Alliance of Queer and Ally Students logo"
+        "splashAlt": "The Alliance of Queer and Ally Students logo"
 
     }
 ]

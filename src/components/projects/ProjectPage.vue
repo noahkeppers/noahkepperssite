@@ -25,35 +25,30 @@
       class="display-3">{{ project.title }}</h1>
     <img
       :src="require(`../../assets/${project.id}/splash.jpeg`)"
-      :alt="project.imgAlt"
+      :alt="project.splashAlt"
       class="img-fluid rounded mb-3 w-100">
     <p class="font-weight-normal subtitle mb-0 h2">{{ project.subtitle }}</p>
     <p class="h3">{{ project.desc }}</p>
     <b-btn
+      v-for="button in project.buttons"
+      :key="button.link"
+      :href="button.link"
+      class="mr-2"
       variant="primary"
-      size="lg">Project Home</b-btn>
-    <b-btn
-      variant="primary"
-      size="lg">Paper</b-btn>
+      size="lg">{{ button.text }}</b-btn>
     <hr class="mb-4">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero.</p>
+    <p>{{ project.body }}</p>
     <div class="row">
-      <div class="col-md">
+      <div
+        v-for="image in project.images"
+        :key="image.name"
+        class="col-md">
         <figure class="figure">
           <img
-            :src="require(`../../assets/${project.id}/splash.jpeg`)"
-            :alt="project.imgAlt"
+            :src="require(`../../assets/${project.id}/${image.name}`)"
+            :alt="image.alt"
             class="img-fluid rounded mb-3 w-100 figure-img">
-          <figcaption class="figure-caption">Something's going on here idk</figcaption>
-        </figure>
-      </div>
-      <div class="col-md">
-        <figure class="figure">
-          <img
-            :src="require(`../../assets/${project.id}/splash.jpeg`)"
-            :alt="project.imgAlt"
-            class="img-fluid rounded mb-3 w-100 figure-img">
-          <figcaption class="figure-caption">Something's going on here idk</figcaption>
+          <figcaption class="figure-caption">{{ image.caption }}</figcaption>
         </figure>
       </div>
     </div>
