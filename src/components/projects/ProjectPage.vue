@@ -49,10 +49,12 @@
         :key="image.name"
         class="col-md">
         <figure class="figure">
-          <img
-            :src="require(`../../assets/${project.id}/${image.name}`)"
-            :alt="image.alt"
-            class="img-fluid rounded mb-3 w-100 figure-img">
+          <a :href="require(`../../assets/${project.id}/${image.name}`)">
+            <img
+              :src="require(`../../assets/${project.id}/${image.name}`)"
+              :alt="image.alt"
+              class="img-fluid rounded mb-3 w-100 figure-img">
+          </a>
           <figcaption class="figure-caption">{{ image.caption }}</figcaption>
         </figure>
       </div>
