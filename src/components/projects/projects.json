@@ -2,7 +2,7 @@
     {
         "id": "te",
         "title": "Theatre Engine",
-        "subtitle": "Michigan State University",
+        "subtitle": "Michigan State University • 2018",
         "desc": "An ambitious mashup of technology, dance, and improv.",
         "splashAlt": "Dancers in colored t-shirts and black pants moving underneath bright spotlights",
         "buttons": [
@@ -15,7 +15,12 @@
                 "link": ""
             }
         ],
-        "body": "Test Body Text",
+        "body": [
+          { "title": "Project Context",
+            "text": "Test Text" },
+          { "title": "My Role",
+            "text": "Test Text" }
+        ],
         "images": [
             {
                 "name": "splash.jpeg",

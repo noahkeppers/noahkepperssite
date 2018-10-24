@@ -37,7 +37,12 @@
       variant="primary"
       size="lg">{{ button.text }}</b-btn>
     <hr class="mb-4">
-    <p>{{ project.body }}</p>
+    <div
+      v-for="section in project.body"
+      :key="section.title">
+      <h2 class="h3">{{ section.title }}</h2>
+      <p>{{ section.text }}</p>
+    </div>
     <div class="row">
       <div
         v-for="image in project.images"
