@@ -79,11 +79,11 @@
           },
           {
             "text": "Research Poster",
-            "link": "../dc-poster"
+            "link": "/static/dc-poster.pdf"
           },
           {
             "text": "Research Paper",
-            "link": "../dc-paper"
+            "link": "https://www.emeraldinsight.com/doi/full/10.1108/IJPCC-02-2017-0012"
           }
       ],
       "body": [
@@ -148,11 +148,11 @@
     "buttons": [
         {
             "text": "Project Website",
-            "link": "../capstone-site"
+            "link": "http://www.capstone.cse.msu.edu/2018-08/projects/ford/"
         },
         {
           "text": "GitHub Repository",
-          "link": "../capstone-github"
+          "link": "https://github.com/morga206/CapstoneTeamFord"
         }
     ],
     "body": [
