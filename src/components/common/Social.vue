@@ -28,6 +28,13 @@
         id="github"
         class="icon" />
     </a>
+    <a
+      :href="decryptEmail('bWFpbHRvOm5rZXBwZXJzQGdtYWlsLmNvbQ==')"
+      aria-label="email">
+      <EmailLogo
+        id="email"
+        class="icon" />
+    </a>
   </div>
 </template>
 
@@ -36,6 +43,7 @@ import FacebookLogo from '../../icons/facebook.svg'
 import GithubLogo from '../../icons/github.svg'
 import LinkedinLogo from '../../icons/linkedin.svg'
 import TwitterLogo from '../../icons/twitter.svg'
+import EmailLogo from '../../icons/email.svg'
 
 export default {
   name: 'Social',
@@ -43,7 +51,13 @@ export default {
     FacebookLogo,
     GithubLogo,
     LinkedinLogo,
-    TwitterLogo
+    TwitterLogo,
+    EmailLogo
+  },
+  methods: {
+    decryptEmail (text) {
+      return atob(text)
+    }
   }
 }
 </script>
@@ -69,5 +83,9 @@ export default {
 
 #twitter:hover, a:focus #twitter {
   fill: #55acee;
+}
+
+#email:hover, a:focus #email {
+  fill: #555555;
 }
 </style>
