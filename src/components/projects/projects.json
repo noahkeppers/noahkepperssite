@@ -103,12 +103,12 @@
             {
               "name": "dc1.png",
               "alt": "Two students stand facing each other on a brightly colored floor, reading instructions from tablets in their hands. Underneath, a screenshot of a tablet displays a puzzle piece with 'crouch forward 2' conveyed in pictographs.",
-              "caption": "Students participate in the Dancing Computer activity in small groups"
+              "caption": "Students participate in the Dancing Computer activity in groups"
             },
             {
               "name": "dc2.png",
               "alt": "Two groups of students stand on a brightly colored floor, reaching toward the sky with tablets in their hands. Underneath, a screenshot of a tablet displays a puzzle piece with 'grow counter-clockwise 90' in pictographs.",
-              "caption": "Dances range from small groups (4 students) to larger groups (8 students, shown here)"
+              "caption": "Dances range from small (4 students) to larger groups (8 students, shown here)"
             }
           ]
         },
@@ -198,7 +198,7 @@
               "name": "architecture.png",
               "link": "architecture.pdf",
               "alt": "System architecture diagram (click for PDF)",
-              "caption": "The project's System architecture diagram"
+              "caption": "System architecture overview"
             }
           ]
       }
