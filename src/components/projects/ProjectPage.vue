@@ -27,7 +27,7 @@
       <img
         :src="require(`../../assets/${project.id}/splash.jpeg`)"
         :alt="project.splashAlt"
-        class="img-fluid rounded mb-3">
+        class="img-fluid mb-3">
       <figcaption class="figure-caption">{{ project.splashCaption }}</figcaption>
     </figure>
     <p class="font-weight-normal subtitle mb-0 h2">{{ project.subtitle }}</p>
@@ -59,7 +59,7 @@
               <img
                 :src="require(`../../assets/${project.id}/${image.name}`)"
                 :alt="image.alt"
-                class="img-fluid rounded mb-3 figure-img">
+                class="img-fluid mb-3 figure-img">
             </a>
             <figcaption class="figure-caption">{{ image.caption }}</figcaption>
           </figure>
