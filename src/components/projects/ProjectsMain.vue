@@ -3,9 +3,9 @@
     class="projects"
     role="main">
     <transition
+      :appear="true"
       name="fade"
       mode="out-in"
-      appear="true"
       @beforeLeave="beforeLeave"
       @enter="enter"
       @afterEnter="afterEnter">

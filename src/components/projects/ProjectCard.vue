@@ -4,9 +4,9 @@
     :aria-labelledby="`project-title-${project.id}`">
     <b-card
       :img-src="require(`../../assets/${project.id}/splash.jpeg`)"
-      :img-alt="project.imgAlt"
+      :img-alt="project.splashAlt"
       text-variant="white"
-      class="border-0 h-100 mb-2"
+      class="border-0 mb-2"
       no-body>
       <b-card-body
         overlay
@@ -48,6 +48,7 @@ export default {
 
   img {
     transition: filter 0.25s ease;
+    max-width: 500px;
   }
 
   .card-body {

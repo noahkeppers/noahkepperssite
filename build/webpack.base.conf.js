@@ -78,7 +78,14 @@ module.exports = {
       {
         test: /\.svg$/,
         loader: 'vue-svg-loader'
-      }
+      },
+      {
+        test: /\.pdf$/,
+        loader: 'file-loader',
+        options: {
+          name: utils.assetsPath('file/[name].[hash:7].[ext]')
+        }
+      },
     ]
   },
   node: {

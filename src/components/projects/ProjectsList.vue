@@ -13,7 +13,7 @@
           <div class="backdrop rounded mb-4">
             <img
               :src="require(`../../assets/${project.id}/splash.jpeg`)"
-              :alt="project.imgAlt"
+              :alt="project.splashAlt"
               class="img-fluid rounded">
           </div>
         </div>

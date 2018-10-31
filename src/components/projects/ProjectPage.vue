@@ -23,10 +23,13 @@
     <h1
       ref="srFocus"
       class="display-3">{{ project.title }}</h1>
-    <img
-      :src="require(`../../assets/${project.id}/splash.jpeg`)"
-      :alt="project.splashAlt"
-      class="img-fluid rounded mb-3 w-100">
+    <figure class="figure">
+      <img
+        :src="require(`../../assets/${project.id}/splash.jpeg`)"
+        :alt="project.splashAlt"
+        class="img-fluid rounded mb-3">
+      <figcaption class="figure-caption">{{ project.splashCaption }}</figcaption>
+    </figure>
     <p class="font-weight-normal subtitle mb-0 h2">{{ project.subtitle }}</p>
     <p class="h3">{{ project.desc }}</p>
     <b-btn
@@ -40,23 +43,27 @@
     <div
       v-for="section in project.body"
       :key="section.title">
-      <h2 class="h3">{{ section.title }}</h2>
-      <p>{{ section.text }}</p>
-    </div>
-    <div class="row">
+      <div v-if="section.type === 'text'">
+        <h2 class="h3">{{ section.title }}</h2>
+        <p>{{ section.text }}</p>
+      </div>
       <div
-        v-for="image in project.images"
-        :key="image.name"
-        class="col-md">
-        <figure class="figure">
-          <a :href="require(`../../assets/${project.id}/${image.name}`)">
-            <img
-              :src="require(`../../assets/${project.id}/${image.name}`)"
-              :alt="image.alt"
-              class="img-fluid rounded mb-3 w-100 figure-img">
-          </a>
-          <figcaption class="figure-caption">{{ image.caption }}</figcaption>
-        </figure>
+        v-if="section.type === 'images'"
+        class="row">
+        <div
+          v-for="image in section.images"
+          :key="image.name"
+          class="col-md">
+          <figure class="figure">
+            <a :href="require(`../../assets/${project.id}/${image.link !== undefined ? image.link : image.name}`)">
+              <img
+                :src="require(`../../assets/${project.id}/${image.name}`)"
+                :alt="image.alt"
+                class="img-fluid rounded mb-3 figure-img">
+            </a>
+            <figcaption class="figure-caption">{{ image.caption }}</figcaption>
+          </figure>
+        </div>
       </div>
     </div>
   </div>
