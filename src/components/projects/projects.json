@@ -115,7 +115,7 @@
         {
           "type": "text",
           "title": "Dancing Computer Sessions: Teaching Programming Concepts",
-          "text": "During each session, I worked with other research assistants to teach students dance steps and programming concepts (left). After this pre-teaching segment, we facilitated dances in small groups, sending steps and monitoring progress using the server software (right). My programming work focused on teaching variables. Pre-teaching describes variables as “boxes” for storing numbers. Then, variable reference (left) and assignment (center) are introduced. Assignment requires entering the new value and provides feedback (right)."
+          "text": "During each session, I worked with other research assistants to teach students dance steps and programming concepts. After this pre-teaching segment, we facilitated dances in small groups, sending steps and monitoring progress using the server software. My programming work focused on teaching variables. Pre-teaching describes variables as “boxes” for storing numbers. Then, variable reference and assignment are introduced. Assignment requires entering the new value and provides feedback."
         },
         {
           "type": "images",
