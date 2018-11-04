@@ -203,5 +203,66 @@
           ]
       }
     ]
+  },
+  {
+    "id": "additional",
+    "title": "Additional Work",
+    "subtitle": "2016 - 2018",
+    "desc": "Et cetera.",
+    "splashAlt": "Noah presents at hackNY demo night",
+    "splashCaption": "Photo courtesy of hackNY & Jacob Aronoff",
+    "buttons": [
+      {
+        "text": "West 4th Street Site",
+        "link": "https://west4thstreet.surge.sh"
+      }
+    ],
+    "body": [
+      {
+        "type": "images",
+        "images": [
+          {
+            "name": "allo.jpeg",
+            "alt": "The Google Allo logo",
+            "caption": "@you, @me, @all of the people: Emma and Noah at the Googleplex"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": "Mentions, Allo for Android (Google, Summer 2017)",
+        "text": "During my time as an Engineering Practicum Intern at Google, I collaborated with a partner intern, Emma Sloan, on the mentions feature in Allo for Android. Using mentions, users can include '@username' in a message to call out members of a group conversation. Emma and I worked with UX, Product, and Engineering to design and implement the feature in Java."
+      },
+      {
+        "type": "images",
+        "images": [
+          {
+            "name": "w4st.jpeg",
+            "alt": "The words 'West 4th Street' set on a chain-link background",
+            "caption": "Storytelling meets identity."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": "Project Manager, West 4th Street (hackNY, Summer 2018)",
+        "text": "As part of my hackNY Fellowship, I project managed West 4th Street, an identity-based storytelling project by Bayeté Ross Smith. As PM, I led a team of developers to adapt the mobile site for desktop."
+      },
+      {
+        "type": "images",
+        "images": [
+          {
+            "name": "alliance.jpeg",
+            "alt": "The Alliance of Queer and Ally Students logo",
+            "caption": "Queering up MSU, one delegation at a time: The Alliance Executive Board at MBLGTACC"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": "Conference Coordinator, Alliance for Queer & Ally Students (Michigan State, 2016 - 2017)",
+        "text": "As Conference Coordinator, I organized two MSU delegations to queer conferences during the 2016 - 2017 school year. This included leading recruitment, admissions, and travel for delegates to the MBLGTACC and Creating Change conferences, totaling 45 students."
+      }
+    ]
   }
 ]
