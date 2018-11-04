@@ -24,10 +24,13 @@
       ref="srFocus"
       class="display-3">{{ project.title }}</h1>
     <figure class="figure">
-      <img
-        :src="require(`../../assets/${project.id}/splash.jpeg`)"
-        :alt="project.splashAlt"
-        class="img-fluid mb-3">
+      <a
+        :href="require(`../../assets/${project.id}/splash.jpeg`)">
+        <img
+          :src="require(`../../assets/${project.id}/splash.jpeg`)"
+          :alt="project.splashAlt"
+          class="img-fluid mb-3">
+      </a>
       <figcaption class="figure-caption">{{ project.splashCaption }}</figcaption>
     </figure>
     <p class="font-weight-normal subtitle mb-0 h2">{{ project.subtitle }}</p>
