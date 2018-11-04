@@ -27,12 +27,12 @@
             "type": "images",
             "images": [
               {
-                "name": "callandresponse.png",
+                "name": "callandresponse.jpeg",
                 "alt": "Dancers moving as audience members direct them with Android tablets. Underneath, a screenshot of a tablet that reads 'Your Turn (move your tablet)'",
                 "caption": "The 'Call and Response' Activity"
               },
               {
-                "name": "poses.png",
+                "name": "poses.jpeg",
                 "alt": "Audience members pull a dancer out of imaginary quicksand. Underneath, a screenshot tablet that reads'Quicksand'.",
                 "caption": "The 'Poses' Activity"
               }
@@ -47,7 +47,7 @@
               "type": "images",
               "images": [
                 {
-                  "name": "puzzle.png",
+                  "name": "puzzle.jpeg",
                   "alt": "Screenshots from Theatre Engine: Puzzle - from left to right, tablets display: 'Find your group' text, a photo of a pirate ship, and 'Dance this image' text",
                   "caption": "Theatre Engine: Puzzle Screenshots"
                 }]
@@ -101,12 +101,12 @@
           "type": "images",
           "images": [
             {
-              "name": "dc1.png",
+              "name": "dc1.jpeg",
               "alt": "Two students stand facing each other on a brightly colored floor, reading instructions from tablets in their hands. Underneath, a screenshot of a tablet displays a puzzle piece with 'crouch forward 2' conveyed in pictographs.",
               "caption": "Students participate in the Dancing Computer activity in groups"
             },
             {
-              "name": "dc2.png",
+              "name": "dc2.jpeg",
               "alt": "Two groups of students stand on a brightly colored floor, reaching toward the sky with tablets in their hands. Underneath, a screenshot of a tablet displays a puzzle piece with 'grow counter-clockwise 90' in pictographs.",
               "caption": "Dances range from small (4 students) to larger groups (8 students, shown here)"
             }
@@ -121,7 +121,7 @@
           "type": "images",
           "images": [
             {
-              "name": "variables.png",
+              "name": "variables.jpeg",
               "alt": "Screenshots showing the variables feature - from left to right, tablets display: 'Move forward X, X: 3', 'X = X - 2, X: 3' with a space underneath to enter a value of X, 'X = X - 2, X: 3' (as before) with examples of incorrect input (X = 4, colored red) and correct input (X = 1, colored green)",
               "caption": "Use of variables in dance 'steps'"
             }
