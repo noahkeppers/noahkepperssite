@@ -36,7 +36,7 @@
       v-for="button in project.buttons"
       :key="button.link"
       :href="button.link"
-      class="mr-2"
+      class="mr-2 mb-2"
       variant="primary"
       size="lg">{{ button.text }}</b-btn>
     <hr class="mb-4">
