@@ -11,7 +11,7 @@ const transitionsMixin = { methods:
 
       setTimeout(() => {
         element.style.height = height
-      }, 150)
+      }, 400)
     },
     afterEnter (element) {
       element.style.height = 'auto'
