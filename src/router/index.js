@@ -6,6 +6,7 @@ import ProjectsList from '@/components/projects/ProjectsList'
 import ProjectPage from '@/components/projects/ProjectPage'
 import About from '@/components/about/About'
 import NotFound from '@/components/not-found/NotFound'
+import TECode from '@/components/te-code/TECode'
 
 Vue.use(Router)
 
@@ -37,6 +38,11 @@ export default new Router({
       name: 'About',
       path: '/about',
       component: About
+    },
+    {
+      name: 'PuzzleScene.java',
+      path: '/te-puzzle',
+      component: TECode
     },
     {
       name: 'Not Found',

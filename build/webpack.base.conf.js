@@ -86,6 +86,10 @@ module.exports = {
           name: utils.assetsPath('file/[name].[hash:7].[ext]')
         }
       },
+      {
+        test: /\.java$/,
+        loader: 'raw-loader'
+      }
     ]
   },
   node: {
