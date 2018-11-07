@@ -16,7 +16,7 @@
           {
             "type": "text",
             "title": "Project Description",
-            "text": "Theatre Engine blends lights, sound, and technology to let audiences become active participants in the performance. The show progresses through a variety of activities, from Call and Response (top left), in which dancers mimic audience members’ movements, to Poses (top right), in which audience members are invited onstage to dance." 
+            "text": "Theatre Engine blends lights, sound, and technology to let audiences become active participants in the performance. The show progresses through a variety of activities, from Call and Response, in which dancers mimic audience members’ movements, to Poses, in which audience members are invited onstage to dance." 
           },
           { 
             "type": "text",
@@ -172,7 +172,7 @@
           {
             "name": "projectplan.jpeg",
             "alt": "Mingkai presents a mockup of the Customer App Review Dashboard during Team Ford's Project Plan presentation",
-            "caption": "Team Ford's Project Plan Presentation (UI Mockups)"
+            "caption": "Team Ford's Project Plan Presentation"
           },
           {
             "name": "teamphoto.jpeg",
@@ -184,7 +184,7 @@
       {
         "type": "text",
         "title": "The Ford Customer App Review Dashboard",
-        "text": "The Ford Customer App Review Dashboard consists of two primary interfaces. Our web dashboard (pictured) allows Ford associates to query for review statistics on-demand. Additionally, our Slack bot sends periodic review reports to the Slack messaging service. Our system scrapes app reviews from app stores and analyzes them using Amazon Comprehend. The Spring Cloud Function-based backend then calculates aggregate statistics, which are sent to both an Angular web dashboard and Slack bot."
+        "text": "The Ford Customer App Review Dashboard consists of two primary interfaces. Our web dashboard allows Ford associates to query for review statistics on-demand. Additionally, our Slack bot sends periodic review reports to the Slack messaging service. Our system scrapes app reviews from app stores and analyzes them using Amazon Comprehend. The Spring Cloud Function-based backend then calculates aggregate statistics, which are sent to both an Angular web dashboard and Slack bot."
       },
       {
           "type": "images",
@@ -219,6 +219,11 @@
     ],
     "body": [
       {
+        "type": "text",
+        "title": "Mentions, Allo for Android (Google, Summer 2017)",
+        "text": "During my time as an Engineering Practicum Intern at Google, I collaborated with a partner intern, Emma Sloan, on the mentions feature in Allo for Android. Using mentions, users can include '@username' in a message to call out members of a group conversation. Emma and I worked with UX, Product, and Engineering to design and implement the feature in Java."
+      },
+      {
         "type": "images",
         "images": [
           {
@@ -230,8 +235,8 @@
       },
       {
         "type": "text",
-        "title": "Mentions, Allo for Android (Google, Summer 2017)",
-        "text": "During my time as an Engineering Practicum Intern at Google, I collaborated with a partner intern, Emma Sloan, on the mentions feature in Allo for Android. Using mentions, users can include '@username' in a message to call out members of a group conversation. Emma and I worked with UX, Product, and Engineering to design and implement the feature in Java."
+        "title": "Project Manager, West 4th Street (hackNY, Summer 2018)",
+        "text": "As part of my hackNY Fellowship, I project managed West 4th Street, an identity-based storytelling project by Bayeté Ross Smith. As PM, I led a team of developers to adapt the mobile site for desktop."
       },
       {
         "type": "images",
@@ -245,8 +250,8 @@
       },
       {
         "type": "text",
-        "title": "Project Manager, West 4th Street (hackNY, Summer 2018)",
-        "text": "As part of my hackNY Fellowship, I project managed West 4th Street, an identity-based storytelling project by Bayeté Ross Smith. As PM, I led a team of developers to adapt the mobile site for desktop."
+        "title": "Conference Coordinator, Alliance for Queer & Ally Students (Michigan State, 2016 - 2017)",
+        "text": "As Conference Coordinator, I organized two MSU delegations to queer conferences during the 2016 - 2017 school year. This included leading recruitment, admissions, and travel for delegates to the MBLGTACC and Creating Change conferences, totaling 45 students."
       },
       {
         "type": "images",
@@ -257,11 +262,6 @@
             "caption": "Queering up MSU, one delegation at a time: The Alliance Executive Board at MBLGTACC"
           }
         ]
-      },
-      {
-        "type": "text",
-        "title": "Conference Coordinator, Alliance for Queer & Ally Students (Michigan State, 2016 - 2017)",
-        "text": "As Conference Coordinator, I organized two MSU delegations to queer conferences during the 2016 - 2017 school year. This included leading recruitment, admissions, and travel for delegates to the MBLGTACC and Creating Change conferences, totaling 45 students."
       }
     ]
   }
