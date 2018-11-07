@@ -40,8 +40,8 @@ export default new Router({
       component: About
     },
     {
-      name: 'PuzzleScene.java',
-      path: '/te-puzzle',
+      name: 'Theatre Engine Implementation',
+      path: '/te-code',
       component: TECode
     },
     {
