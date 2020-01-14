@@ -1,14 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Noah Keppers</title>
+---
+layout: default
+---
+<div class="intro">
+  <h1>Hi, I'm Noah!</h1>
+  <p>I’m a multidisciplinary designer and technologist. From programming to information design, I’m passionate about creating ethical, expressive, and engaging tech.</p>
+</div>
 
-    <link rel="icon" href="./static/favicon.png">
-  </head>
-  <body>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
-</html>
+<ul class="cards two-col">
+  {% for case_study in site.case_studies %}
+    <li class="card">
+      <a href="{{ case_study.url }}">
+        <img class="splash" src="{{ case_study.img.link }}" alt="{{ case_study.img.alt }}">
+        <h2>{{ case_study.title }}</h2>
+        <p>{{ case_study.type }} • {{ case_study.organization }}</p>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

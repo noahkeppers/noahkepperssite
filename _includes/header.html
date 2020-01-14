@@ -1,0 +1,19 @@
+<header>
+    <nav>
+      <a class="site-title" href="/">{{ site.title | escape }}</a>
+      <input id="toggle-mobile-menu" type="checkbox" />
+      <label class="nav-icon" for="toggle-mobile-menu" aria-label="Menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
+
+      <ul>
+        {% for item in site.data.nav.items %}
+          <li class="{% if item.url == page.url %}active{% endif %}">
+            <a href="{{ item.url }}">{{ item.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+</header>

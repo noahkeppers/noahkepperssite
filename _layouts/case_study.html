@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<div class="project-header two-col">
+  <div>
+    <div class="project-nav">
+      {% if page.previous.url %}
+        <a class="prev" href="{{ page.previous.url }}">
+          {% include /icons/prev.svg %} Previous Project
+        </a>
+      {% else %}
+        <span></span>
+      {% endif %}
+
+
+      {% if page.next.url %}
+        <a class="next" href="{{ page.next.url }}">
+          Next Project {% include /icons/next.svg %}
+        </a>
+      {% else %}
+        <span></span>
+      {% endif %}
+    </div>
+
+    <figure>
+      <img class="splash" src="{{ page.img.link }}" alt="{{ page.img.alt }}">
+      {% if page.img.caption %}
+        <figcaption>{{ page.img.caption }}</figcaption>
+      {% endif %}
+    </figure>
+  </div>
+
+  <div>
+    <h1>{{ page.title }}</h1>
+    <p class="subtitle">{{ page.type }} • {{ page.organization }}</p>
+
+    <p class="description">{{ page.desc }}</p>
+
+    <ul class="stats">
+      {% for stat in page.stats %}
+        <li>
+          <p class="stat-title">{{ stat.title }}</p>
+          <p class="stat-body">{{ stat.body }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="case-study-body">
+  {{ content }}
+</div>

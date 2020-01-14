@@ -1,0 +1,50 @@
+.intro {
+  width: 90vw;
+
+  @media(min-width: 768px) {
+    width: 70vw;
+  }
+  
+  margin: 0 auto 4em auto;
+
+  h1 {
+    margin-bottom: 0.25em;
+  }
+}
+
+.cards {
+  list-style: none;
+  gap: 1.5em;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.card {
+  margin-bottom: 1.5em;
+  h2 {
+    font-size: 1em;
+    color: $accent-color;
+  }
+
+  p {
+    font-size: 1em;
+    color: $primary-color;
+  }
+
+  .splash {
+    /* Remove color, add a bit back, rotate to blue (~170deg), then adjust for contrast (numbers found by eye) */
+    filter: grayscale(1) sepia(1) hue-rotate(170deg) saturate(200%) brightness(90%);
+  }
+}
+
+.card:hover {
+  .splash {
+    transition: all .25s ease;
+    filter: none;
+  }
+
+  h2 {
+    transition: all .25s ease;
+    color: $accent-color-hover;
+  }
+}
+

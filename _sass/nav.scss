@@ -1,0 +1,116 @@
+/* Navigation Styles */
+header {
+  padding: 1em;
+}
+
+.site-title {
+  font-size: 1.5em;
+}
+
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  justify-content: space-between;
+
+  margin-bottom: 1em;
+
+  svg {
+    position: relative;
+    top: 0.1em;
+
+    height: 1.25em;
+    width: auto;
+    
+  }
+  /* Hide underlying checkbox for toggle */
+  input {
+    display: none;
+  }
+
+  /* Make menu toggleable on mobile */
+  ul {
+    list-style: none;
+    display: none;
+  }
+
+  input:checked + .nav-icon + ul {
+    display: block;
+    flex-basis: 100%;
+    padding-top: 1em;
+  }
+
+  /* Build hamburger menu icon */
+  .nav-icon {
+    position: relative;
+    top: 0.25em;
+    cursor: pointer;
+  }
+
+  .nav-icon > div {
+    width: 25px;
+    height: 3px;
+    background-color: $primary-color;
+    margin: 4px 0;
+    transition: all .3s ease-in-out;
+  }
+
+  /* Animate icon on toggle */
+  /* https://w3bits.com/animated-menu-icon-css/ */
+  input:checked + .nav-icon  {
+    div:nth-child(1) {
+      transform: translateY(7px) rotate(135deg);
+    }
+
+    div:nth-child(2) {
+      transform: scale(0);
+    }
+
+    div:nth-child(3) {
+      transform: translateY(-7px) rotate(-135deg);
+    }
+  }
+
+
+  li {
+    padding: 0.25em 1em;
+    font-size: 1.5em;
+
+    a {
+      color: $secondary-color;
+    }
+  
+    a:hover {
+      color: $primary-color;
+      transition: .5s;
+    }
+  }
+
+  li.active {
+    a {
+      color: $primary-color;
+    }
+  }
+
+  /* Always show menu on large screens */
+  @media (min-device-width: 768px) {
+    margin-bottom: 2em;
+
+    .nav-icon {
+      display: none;
+    }
+
+    ul {
+      display: flex;
+    }
+
+    li {
+      padding: 0 1em;
+      font-size: 1em;
+    }
+
+    svg {
+      display: none;
+    }
+  }
+}

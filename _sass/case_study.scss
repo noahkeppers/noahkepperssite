@@ -1,0 +1,114 @@
+/* Define animations for arrow hover */
+@keyframes pulse-left {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 3px;
+  }
+}
+
+@keyframes pulse-right {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: 3px;
+  }
+}
+
+/* Prev/next project arrow styling + animation */
+.project-nav {
+  display: flex;
+  padding-bottom: 0.75em;
+  justify-content: space-between;
+
+  svg {
+    position: relative;
+    top: 0.35em;
+  
+    width: 0.75em;
+    height: auto;
+  }
+}
+
+
+
+.next svg {
+  padding-left: 0.1em;
+  padding-right: 3px; /* Leave room for animation */
+}
+
+.prev svg {
+  padding-left: 3px; /* Leave room for animation */
+  padding-right: 0.1em;
+}
+
+a.next:hover svg {
+  animation: pulse-left 0.5s ease 1;
+  animation-fill-mode: forwards;
+  stroke: $accent-color-hover;
+}
+
+a.prev:hover svg {
+  animation: pulse-right 0.5s ease 1;
+  animation-fill-mode: forwards;
+  stroke: $accent-color-hover;
+}
+
+/* Project information header */
+.project-header {
+  margin-bottom: 3em;
+}
+
+.subtitle {
+  margin-bottom: 1.5em;
+}
+
+.description {
+  color: $primary-color;
+  font-weight: $bold-font-weight;
+  margin-bottom: 1.5em;
+}
+
+.stats {
+  list-style: none;
+}
+
+.stat-title {
+  color: $accent-color;
+  font-weight: $bold-font-weight;
+}
+
+.stat-body {
+  margin-bottom: 0.75em;
+}
+
+/* Style tweaks for Jekyll-generated HTML */
+.case-study-body {
+  margin-bottom: 1.5em;
+
+  h2 {
+    margin: 2.5em 0 0.5em 0;
+  }
+
+  h3 {
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    margin-bottom: 2em;
+  }
+
+  ul {
+    padding-left: 4em;
+  }
+
+  li {
+    margin-top: 0.25em;
+  }
+
+  figure {
+    margin-bottom: 2em;
+  }
+}

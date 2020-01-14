@@ -1,0 +1,108 @@
+/* Color Scheme */
+$background-color: #F0F0F0;
+$primary-color: #3D3D3D;
+$secondary-color: #696969;
+$accent-color: #0070BB;
+$accent-color-hover: mix($accent-color, black, 80%);
+
+/* Fonts */
+$base-font-family: proxima-nova, Helvetica, Arial, sans-serif;
+
+$base-font-weight: 500;
+$bold-font-weight: 700;
+
+$base-font-size: 16px;
+$mobile-base-font-size: 12px;
+
+$base-line-height: 1.25;
+
+/* Resets - From default maxima theme */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+
+}
+
+/* General Styles */
+.wrapper {
+  width: 70vw;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.two-col {
+  display: grid;
+
+  align-items: center;
+  gap: 3em;
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+
+  /* Once we get to 2 columns, stop making new ones */
+  @media(min-width: 1000px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+body {
+  background-color: $background-color;
+  color: $secondary-color;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+}
+
+h1 {
+  font-size: 2.33em;
+  font-weight: $bold-font-weight;
+  color: $primary-color;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: $bold-font-weight;
+  color: $primary-color;
+}
+
+h3 {
+  font-weight: $bold-font-weight;
+  color: $accent-color;
+}
+
+a {
+  font-weight: $bold-font-weight;
+  color: $accent-color;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $accent-color-hover;
+  transition: .5s;
+}
+
+.button {
+  border: solid $accent-color 2px;
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+}
+
+.button:hover {
+  background: $accent-color;
+  color: white;
+  text-decoration: none;
+  transition: .25s;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.25em;
+}
+figcaption {
+  padding-top: 0.25em;
+}
+
+@import "nav", 
+        "index", 
+        "about", 
+        "case_study";
+

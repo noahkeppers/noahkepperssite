@@ -1,0 +1,16 @@
+.about {
+  grid-template-columns: repeat(auto-fit, minmax(288px, 400px));
+  justify-content: center;
+
+  img {
+    max-width: 400px;
+  }
+
+  p {
+    padding: 0.5em 0;
+  }
+
+  .links {
+    padding-top: 1em;
+  }
+}
