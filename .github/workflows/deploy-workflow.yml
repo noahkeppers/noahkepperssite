@@ -1,0 +1,19 @@
+# https://sujaykundu.com/blog/post/deploy-jekyll-using-github-pages-and-github-actions#/
+name: deploy
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: deploy
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/build-dist-site
+        env:
+          GITHUB_TOKEN: $
+          GITHUB_REPOSITORY: $
+          GITHUB_ACTOR: $
+             
