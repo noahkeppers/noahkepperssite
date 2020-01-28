@@ -5,16 +5,17 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://noahkeppers.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 linkedin: "noah-keppers"
-resume: "Keppers Resume.pdf"
 
 collections:
   case_studies:
     output: true
     order:
+      - queeries.md
+      - ventra.md
+      - process.md
+      - compose.md
       - theatre_engine.md
       - dancing_computer.md
-      - ventra.md
-      - queeries.md
 
 plugins:
   - jekyll-seo-tag

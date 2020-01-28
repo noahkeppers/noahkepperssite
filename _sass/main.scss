@@ -12,7 +12,7 @@ $base-font-weight: 500;
 $bold-font-weight: 700;
 
 $base-font-size: 16px;
-$mobile-base-font-size: 12px;
+$base-font-size-highres: 24px;
 
 $base-line-height: 1.25;
 
@@ -37,7 +37,15 @@ dl, dd, ol, ul, figure {
 
   align-items: center;
   gap: 3em;
-  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+
+  grid-template-columns: 1fr;
+
+
+  /* If wrapper is at least 300px... */
+  @media(min-width: 430px) {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
 
   /* Once we get to 2 columns, stop making new ones */
   @media(min-width: 1000px) {
@@ -49,6 +57,10 @@ body {
   background-color: $background-color;
   color: $secondary-color;
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+
+  @media(min-width: 2500px) {
+    font-size: $base-font-size-highres;
+  }
 }
 
 h1 {
@@ -98,11 +110,14 @@ img {
   border-radius: 0.25em;
 }
 figcaption {
+  font-weight: 600;
+  color: $primary-color;
   padding-top: 0.25em;
 }
 
 @import "nav", 
         "index", 
         "about", 
-        "case_study";
+        "case_study",
+        "404";
 

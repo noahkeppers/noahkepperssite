@@ -5,18 +5,18 @@ img:
   link: "/assets/dancing_computer/splash.jpg"
   alt: "A small child dances on a brightly colored floor as Matt looks on"
   caption: "Photos courtesy of Alison Dobbins"
-type: Research
-organization: Michigan State University
+type: Undergraduate Research
+field: Computer Science + Education
 desc: "Dancing Computer explores a reading-first approach to coding using STEAM (STEM + Art) education. Students embody computers as they “execute” dances on a gridded floor."
 stats:
   - title: Timeframe
     body: Summer 2016
+  - title: Organization
+    body: Michigan State University
   - title: Areas of Focus
     body: Software Engineering, Instructional Design
   - title: Faculty Mentors
     body: Dr. Charles Owen, Alison Dobbins, and Dr. Laura Dillon
-  - title: Team Members
-    body: Madeline Levinson and Matthew Rhodes
 ---
 ## Project Context
 ### Goals
@@ -62,7 +62,7 @@ My work focused on implementing quizzes to check students' understanding. After 
 Writing software for Dancing Computer helped me learn about learning. Structuring lessons that build on each other at a comfortable pace is challenging. Too fast, and students get frustrated. Too slow, and students get bored.
 
 ### The Curse of Knowledge
-As a computer science student, I already knew how to program. This meant I often had no idea how difficult a given topic would be for students - I had to rely on their feedback to know where our curriculum was falling short.
+As someone with programming experience, I often had no idea how difficult a given topic would be for students to grasp. This made student feedback an incredibly important source of insight when judging the curriculum's effectiveness.
 
 ## More Information
 [Project Website](https://cse.msu.edu/dance/){:.button}

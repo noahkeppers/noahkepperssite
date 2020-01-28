@@ -18,6 +18,10 @@
 }
 
 /* Prev/next project arrow styling + animation */
+.left {
+  align-self: end;
+}
+
 .project-nav {
   display: flex;
   padding-bottom: 0.75em;
@@ -89,7 +93,7 @@ a.prev:hover svg {
   margin-bottom: 1.5em;
 
   h2 {
-    margin: 2.5em 0 0.5em 0;
+    margin: 2em 0 0.5em 0;
   }
 
   h3 {
@@ -102,13 +106,14 @@ a.prev:hover svg {
 
   ul {
     padding-left: 4em;
+    margin-bottom: 2em;
   }
 
   li {
     margin-top: 0.25em;
   }
 
-  figure {
+  div {
     margin-bottom: 2em;
   }
 }
