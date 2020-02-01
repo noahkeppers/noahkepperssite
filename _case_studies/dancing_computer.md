@@ -48,13 +48,13 @@ After each session, team members debriefed with faculty to discuss where student
 
 ## The Variables Feature
 ### Teaching Variables
-At the beginning of the summer, the Dancing Computer server could only model simple programs - simple lists of dance steps to be read in order. My teammates and I developed features to teach another core computing principle: data storage. This required introducing a new dance step to set a variables ("X = 2") and allowing use of variables in existing steps ("Walk X steps").
+At the beginning of the summer, the Dancing Computer server could only model simple programs - lists of dance steps to be read in order. My teammates and I developed features to teach another core computing principle: data storage. This required introducing a new dance step to set a variables ("X = 2") and allowing use of variables in existing steps ("Walk X steps").
 
 ### Quizzes
 My work focused on implementing quizzes to check students' understanding. After each variable assignment, students must enter the new value correctly before they could move to the next step.
 
 <div>
-  {%- include image.html src="/assets/dancing_computer/variables.png" alt="Screenshots showing the variables feature - from left to right, tablets display: 'Move forward X, X: 3', 'X = X - 2, X: 3' with a space underneath to enter a value of X, 'X = X - 2, X: 3' (as before) with examples of incorrect input (X = 4, colored red) and correct input (X = 1, colored green)" caption="Use of variables in dance steps" -%}
+  {%- include image.html src="/assets/dancing_computer/variables.png" alt="Screenshots showing the variables feature - from left to right, tablets display: 'Move forward X, X: 3', 'X = X - 2, X: 3' with a space underneath to enter a value of X, 'X = X - 2, X: 3' (as before) with examples of incorrect input (X = 4, colored red) and correct input (X = 1, colored green)" caption="Variable Quizzes" -%}
 </div>
 
 ## Key Learnings

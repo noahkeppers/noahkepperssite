@@ -43,7 +43,7 @@ Puzzle goes beyond existing Theatre Engine activities by requiring audience memb
 
 <div class="two-col">
   {%- include image.html src="/assets/theatre_engine/puzzle.png" alt="Screenshots from Theatre Engine: Puzzle - from left to right, tablets display: 'Find your group' text, a photo of a pirate ship, and 'Dance this image' text" caption="Puzzle Screenshots" -%}
-  {%- include image.html src="/assets/theatre_engine/uml_diagram.png" alt="Theatre Engine: Puzzle architecture diagram (click for PDF)" caption="Architecture Diagram for Puzzle's Server" href="/assets/theatre_engine/uml_diagram.pdf" -%}
+  {%- include image.html src="/assets/theatre_engine/uml_diagram.png" alt="Theatre Engine: Puzzle architecture diagram (click for PDF)" caption="Architecture Diagram for Puzzle's Server (click for PDF)" href="/assets/theatre_engine/uml_diagram.pdf" -%}
 </div>
 
 

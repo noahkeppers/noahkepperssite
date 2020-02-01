@@ -28,7 +28,7 @@ Many Chicagoans who are frequent Ventra users barely look at the printed materia
 ### Research
 My redesign started with class research. With a group of two other students, I observed users at the CTA Sox-35th station and interviewed a CTA employee about the kiosks. We then shared our findings with the rest of the class and developed insights using the 5 E's framework.
 
-I also documented both the digital (UI) and physical (kiosk ports/inputs) flows a user might experience while using the kiosk. When creating my solution, I attempted to make these sequences more salient.
+I also documented both the physical (kiosk ports/inputs) and digital (UI) flows a user might experience while using the kiosk. When creating my solution, I attempted to make these sequences more salient.
 
 <div class="two-col">
   {%- include image.html src="/assets/ventra/physical_flow.jpg" alt="Diagram showing the physical flow that users follow between kiosk inputs" caption="Three kiosk input flows for different use cases" -%}
@@ -45,13 +45,13 @@ I explored several directions on paper before moving forward in InDesign.
 
 ## My Solution
 ### Fare Structure
-Before potential users can even interact with the kiosk, they must determine what to buy. Current printed materials at the top of the kiosk are incredibly dense, making them difficult to understand the CTA fare system. In order to better explain such a complex system, I focused on providing clarity and organization, moving some fare information to the main kiosk and reorganizing the rest.
+Before potential users can even interact with the kiosk, they must determine what to buy. Current printed materials at the top of the kiosk are incredibly dense, making it difficult to understand the different CTA fares. In order to better explain such a complex system, I focused on providing clarity and organization, moving some fare information to the main kiosk and reorganizing the rest.
 
 ### Purchase Flow
 After deciding what to purchase, users must make a selection and pay. The current design separates the kiosk into different areas, but does little in the way of guiding users through the ordered process of making a purchase. On the main kiosk, I focused on providing sequence while maintaing consistent labeling of the kiosk inputs.
 
 <div class="two-col">
-  {%- include image.html src="/assets/ventra/ventra.jpg" alt="Photo of my Ventra kiosk design" caption="My redesign" href="/assets/ventra/ventra.pdf" -%}
+  {%- include image.html src="/assets/ventra/ventra.jpg" alt="Photo of my Ventra kiosk design" caption="My redesign (click for PDF)" href="/assets/ventra/ventra.pdf" -%}
   {%- include image.html src="/assets/ventra/original.jpg" alt="Photo of the original Ventra kiosk design" caption="The original Ventra kiosk" %}
 </div>
 

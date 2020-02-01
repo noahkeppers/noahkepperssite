@@ -12,7 +12,7 @@ stats:
     body: Fall 2019
   - title: Organization
     body: IIT Institute of Design
-  - title: Areas of Focus
+  - title: Area of Focus
     body: Interaction Design
   - title: Instructor
     body: Zach Pino

@@ -29,23 +29,23 @@ The pace of my Foundation semester left minimal time for in-depth user research,
 <div class="two-col">
   <div style="align-self: start">
     <p>I knew I wanted to develop a game for mental health from the beginning, but I wasn't quite sure what form it would take. My first concept was a video game that aimed to teach self-discovery through interpersonal connection. Players would work together to explore their individual identity, symbolized by puzzle pieces in a heart-shaped container.</p>
-    <p>However, I didn't feel that I would be able to develop a clear concept and create testable prototypes for such a complex project in two weeks.</p>
+    <p>However, I didn't feel that I would be able to develop a clear concept and create testable prototypes for such a complex project in two weeks. I needed to get my initial concepts in front of users quickly so I could determine which mechanics were fun to play.</p>
   </div>
   {%- include image.html src="/assets/compose/sketch.jpg" alt="Sketch showing an initial game concept with brightly colored stick figures walking through the woods together" caption="Initial video game concept" -%}
 </div>
 
 ### Switching Gears
-Instead, I changed directions to focus on a writing game for mental health - this concept had a smaller scope and less technological complexities, making it much more achievable in the project time frame. I needed to get my initial concepts in front of users quickly so I could determine which mechanics were fun to play. Focusing on a physical concept allowed me to prototype easily (first with index cards, then in Illustrator), which made testing much more flexible.
+Instead, I changed directions to focus on a writing game for mental health - this concept had a smaller scope and less technological complexities, making it much more achievable in the project time frame.  Focusing on a physical concept allowed me to prototype easily (first with index cards, then in Illustrator), which made testing much more flexible.
 
 <div>
   {%- include image.html src="/assets/compose/testing.png" alt="Photos from user testing. Three photos show players drawing cards, writing on half sheets of paper, and arranging individual sentences on small slips of paper." caption="Testing Compose" -%}
 </div>
 ## My Solution
-Compose draws on several stream-of-consciousness writing practices including [James Pennebaker's expressive writing studies](https://liberalarts.utexas.edu/psychology/faculty/pennebak#writing-health) and [Julia Cameron's morning pages](https://juliacameronlive.com/basic-tools/morning-pages/). Players write in stream of consciousness for two minutes about a shared topic, share their favorite phrases, and combine them into a collaborative poem (each player contributes one line). 
+Compose draws on several stream-of-consciousness writing practices including [James Pennebaker's expressive writing studies](https://liberalarts.utexas.edu/psychology/faculty/pennebak#writing-health) and [Julia Cameron's morning pages](https://juliacameronlive.com/basic-tools/morning-pages/). Players write in stream of consciousness for two minutes about a common topic, share their favorite phrases, and combine them into a collaborative poem (each player contributes one line). 
 
 Compose has two main goals: 
-- to bring players together as they share their thoughts and feelings
-- to teach players how to journal so they can apply the practice in their lives
+- bring players together as they share their thoughts and feelings
+- teach players how to journal so they can apply the practice in their lives
 
 <div class="two-col">
 {%- include image.html src="/assets/compose/manual.jpg" alt="Game manual for Compose (click for PDF)" caption="Game Manual (click for PDF)" href="/assets/compose/manual.pdf" -%}

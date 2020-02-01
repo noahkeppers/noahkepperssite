@@ -1,5 +1,5 @@
 ---
-title: Process Composition
+title: Process Diagram
 layout: case_study
 img:
   link: "/assets/process/splash.jpg"
@@ -47,4 +47,4 @@ The sheer number of details involved in breadmaking meant that I had to consider
 
 
 ### Visual Dynamism
-As a new information designer, I often focused on structure over form. This assignment was the first time in the 14-week course where I made a conscious effort to present information in a visually dynamic way. My aesthetic eye still has a long way to go, but I'm making a conscious effort to develop it going forward.
+As a new information designer, I often focused on structure over aesthetics. This assignment was one of the first times in the course where I was able to consider the content's form and meaning as two sides of the same coin - interrelated forces instead of opposing ones.
