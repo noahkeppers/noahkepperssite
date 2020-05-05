@@ -24,6 +24,18 @@ Develop a game for people with disabilities using inclusive design principles.
 ### My Goals
 The pace of my Foundation semester left minimal time for in-depth user research, and I didn't want to design for a population without understanding their needs. Therefore, I focused on designing for mental health, specifically anxiety and depression - two conditions I have personal experience with.
 
+## My Solution
+Compose draws on several stream-of-consciousness writing practices including [James Pennebaker's expressive writing studies](https://liberalarts.utexas.edu/psychology/faculty/pennebak#writing-health) and [Julia Cameron's morning pages](https://juliacameronlive.com/basic-tools/morning-pages/). Players write in stream of consciousness for two minutes about a common topic, share their favorite phrases, and combine them into a collaborative poem (each player contributes one line). 
+
+Compose has two main goals: 
+- bring players together as they share their thoughts and feelings
+- teach players how to journal so they can apply the practice in their lives
+
+<div class="two-col">
+{%- include image.html src="/assets/compose/manual.jpg" alt="Game manual for Compose (click for PDF)" caption="Game Manual (click for PDF)" href="/assets/compose/manual.pdf" -%}
+{%- include image.html src="/assets/compose/assets.jpg" alt="Three compose cards that read 'My hobbies', 'What creativity means to me', and 'Where I feel at home' (click for PDF version)" caption="Game Assets (click for PDF)" href="/assets/compose/assets.pdf" -%}
+</div>
+
 ## Process
 ### Exploration
 <div class="two-col">
@@ -39,17 +51,6 @@ Instead, I changed directions to focus on a writing game for mental health - thi
 
 <div>
   {%- include image.html src="/assets/compose/testing.png" alt="Photos from user testing. Three photos show players drawing cards, writing on half sheets of paper, and arranging individual sentences on small slips of paper." caption="Testing Compose" -%}
-</div>
-## My Solution
-Compose draws on several stream-of-consciousness writing practices including [James Pennebaker's expressive writing studies](https://liberalarts.utexas.edu/psychology/faculty/pennebak#writing-health) and [Julia Cameron's morning pages](https://juliacameronlive.com/basic-tools/morning-pages/). Players write in stream of consciousness for two minutes about a common topic, share their favorite phrases, and combine them into a collaborative poem (each player contributes one line). 
-
-Compose has two main goals: 
-- bring players together as they share their thoughts and feelings
-- teach players how to journal so they can apply the practice in their lives
-
-<div class="two-col">
-{%- include image.html src="/assets/compose/manual.jpg" alt="Game manual for Compose (click for PDF)" caption="Game Manual (click for PDF)" href="/assets/compose/manual.pdf" -%}
-{%- include image.html src="/assets/compose/assets.jpg" alt="Three compose cards that read 'My hobbies', 'What creativity means to me', and 'Where I feel at home' (click for PDF version)" caption="Game Assets (click for PDF)" href="/assets/compose/assets.pdf" -%}
 </div>
 
 ## Key Learnings

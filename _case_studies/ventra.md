@@ -24,6 +24,18 @@ Design a new faceplate for the Ventra kiosks used to pay for public transport in
 ### My Goals
 Many Chicagoans who are frequent Ventra users barely look at the printed material on Ventra machines. Therefore, I decided to focus on the "rental car" scenario - users who are new to the Ventra and CTA systems.
 
+## My Solution
+### Fare Structure
+Before potential users can even interact with the kiosk, they must determine what to buy. Current printed materials at the top of the kiosk are incredibly dense, making it difficult to understand the different CTA fares. In order to better explain such a complex system, I focused on providing clarity and organization, moving some fare information to the main kiosk and reorganizing the rest.
+
+### Purchase Flow
+After deciding what to purchase, users must make a selection and pay. The current design separates the kiosk into different areas, but does little in the way of guiding users through the ordered process of making a purchase. On the main kiosk, I focused on providing sequence while maintaing consistent labeling of the kiosk inputs.
+
+<div class="two-col">
+  {%- include image.html src="/assets/ventra/ventra.jpg" alt="Photo of my Ventra kiosk design" caption="My redesign (click for PDF)" href="/assets/ventra/ventra.pdf" -%}
+  {%- include image.html src="/assets/ventra/original.jpg" alt="Photo of the original Ventra kiosk design" caption="The original Ventra kiosk" %}
+</div>
+
 ## Process
 ### Research
 My redesign started with class research. With a group of two other students, I observed users at the CTA Sox-35th station and interviewed a CTA employee about the kiosks. We then shared our findings with the rest of the class and developed insights using the 5 E's framework.
@@ -41,18 +53,6 @@ I explored several directions on paper before moving forward in InDesign.
 <div class="two-col">
   {%- include image.html src="/assets/ventra/sketch1.jpg" alt="Concept sketch using arrows to link kiosk inputs" %}
   {%- include image.html src="/assets/ventra/sketch2.jpg" alt="Concept sketch using three numbered zones to structure kiosk inputs" -%}
-</div>
-
-## My Solution
-### Fare Structure
-Before potential users can even interact with the kiosk, they must determine what to buy. Current printed materials at the top of the kiosk are incredibly dense, making it difficult to understand the different CTA fares. In order to better explain such a complex system, I focused on providing clarity and organization, moving some fare information to the main kiosk and reorganizing the rest.
-
-### Purchase Flow
-After deciding what to purchase, users must make a selection and pay. The current design separates the kiosk into different areas, but does little in the way of guiding users through the ordered process of making a purchase. On the main kiosk, I focused on providing sequence while maintaing consistent labeling of the kiosk inputs.
-
-<div class="two-col">
-  {%- include image.html src="/assets/ventra/ventra.jpg" alt="Photo of my Ventra kiosk design" caption="My redesign (click for PDF)" href="/assets/ventra/ventra.pdf" -%}
-  {%- include image.html src="/assets/ventra/original.jpg" alt="Photo of the original Ventra kiosk design" caption="The original Ventra kiosk" %}
 </div>
 
 ## Key Learnings
